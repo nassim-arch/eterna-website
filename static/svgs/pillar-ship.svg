@@ -1,0 +1,13 @@
+<svg viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer ring (static, no rotation) -->
+  <circle cx="80" cy="80" r="74" stroke="white" stroke-width="0.5" fill="none" opacity="0.15" stroke-dasharray="4 8"/>
+  <!-- Nested triangles (static, no rocking) -->
+  <g>
+    <polygon points="80,18 130,130 30,130" stroke="white" stroke-width="1.5" fill="none" opacity="0.9"/>
+    <polygon points="80,32 122,122 38,122" stroke="white" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <polygon points="80,46 114,114 46,114" stroke="white" stroke-width="1.5" fill="none" opacity="0.55"/>
+    <polygon points="80,60 106,106 54,106" stroke="white" stroke-width="1.5" fill="none" opacity="0.4"/>
+    <polygon points="80,72 98,98 62,98" stroke="white" stroke-width="1.5" fill="none" opacity="0.28"/>
+    <polygon points="80,82 92,92 68,92" stroke="white" stroke-width="1.5" fill="none" opacity="0.18"/>
+  </g>
+</svg>

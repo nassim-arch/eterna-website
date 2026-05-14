@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+  v13 — Local article page (auto-generated from eternacapital.com/news/our-thoughts-on-the-u-s-election-and-its-potential-impact-on-the-blockchain-and-digital-asset-industry).
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Thoughts on the U.S. Election and Its Potential Impact on the Blockchain and Digital Asset Industry — Eterna Capital</title>
+<style>
+  *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+  html { scroll-behavior: smooth; overflow-y: scroll; }
+  body {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background:#090a0e; color:#f5f5f3;
+    overflow-x:hidden; padding-top:88px;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { display:block; max-width:100%; }
+
+  .scroll-progress {
+    position: fixed; top:88px; left:0; height:2px; width:0%;
+    background: #007dff;
+    z-index:99; pointer-events:none;
+  }
+
+  nav {
+    position: fixed; top:0; width:100%; z-index:100;
+    background: rgba(9,10,14,0.92);
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    border-bottom:1px solid rgba(255,255,255,0.05);
+  }
+  .nav-inner {
+    max-width:1200px; margin:0 auto; padding:0 40px;
+    display:flex; align-items:center; height:88px;
+  }
+  .nav-logo { margin-right: auto; }
+  .nav-logo img { height:36px; display:block; }
+  .nav-links { display:flex; gap:36px; list-style:none; }
+  .nav-links a {
+    color:#f5f5f3; text-decoration:none; font-size:16px; font-weight:500;
+    letter-spacing:0.02em; transition: opacity 0.25s ease;
+    opacity:0.8; position:relative; padding-bottom:4px;
+  }
+  .nav-links a:hover { opacity:1; }
+  .nav-links a.active { opacity:1; color:#007dff; }
+  .nav-links a::after {
+    content:""; position:absolute; bottom:0; left:0; height:1px; width:0;
+    background:#007dff; transition: width 0.3s ease;
+  }
+  .nav-links a:hover::after, .nav-links a.active::after { width:100%; }
+  .nav-toggle {
+    display:none; background:none; border:0; cursor:pointer;
+    padding:8px; margin-left:16px; position:relative; z-index:210;
+  }
+  .nav-toggle span {
+    display:block; width:24px; height:2px; background:#f5f5f3;
+    margin:5px 0; transition: transform 0.3s ease, opacity 0.2s ease;
+    transform-origin:center;
+  }
+  .nav-toggle.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .nav-toggle.open span:nth-child(2) { opacity: 0; }
+  .nav-toggle.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+  body.nav-open { overflow: hidden; }
+
+  main {
+    max-width: 780px; margin:0 auto; padding: 60px 40px 120px;
+  }
+
+  .back-link {
+    display:inline-flex; align-items:center; gap:10px;
+    color: rgba(255,255,255,0.6); text-decoration:none;
+    font-size:12px; letter-spacing:0.14em; text-transform:uppercase;
+    margin-bottom: 36px;
+    transition: color 0.25s ease, gap 0.25s ease;
+  }
+  .back-link:hover { color:#007dff; gap:16px; }
+
+  .article-header {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    margin-bottom: 40px;
+  }
+  .eyebrow {
+    display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+    margin-bottom:22px;
+  }
+  .eyebrow .date {
+    font-size:11px; font-weight:500; letter-spacing:0.14em;
+    text-transform: uppercase; color: rgba(255,255,255,0.6);
+  }
+  .eyebrow .duration {
+    font-size:11px; color: rgba(255,255,255,0.45);
+    letter-spacing: 0.06em;
+  }
+  .category {
+    font-size:10px; font-weight:600; letter-spacing:0.14em;
+    text-transform:uppercase;
+    padding:4px 11px; border-radius:100px;
+    border:1px solid #007dff; color:#007dff;
+  }
+  .category.general {
+    border-color: rgba(255,255,255,0.35);
+    color: rgba(255,255,255,0.75);
+  }
+  .article-title {
+    font-size: clamp(34px, 4.2vw, 52px);
+    font-weight: 400;
+    line-height:1.15;
+    letter-spacing:-0.015em;
+  }
+
+  .hero-img {
+    margin: 0 0 44px 0;
+    border-radius: 6px;
+    overflow:hidden;
+    border:1px solid rgba(255,255,255,0.06);
+    background:#0a0a0a;
+  }
+  .hero-img img {
+    width:100%; height:auto; display:block;
+    filter: saturate(0.95);
+  }
+  .hero-img.placeholder {
+    aspect-ratio: 16 / 9;
+    background:
+      radial-gradient(circle at 30% 20%, rgba(0,125,255,0.18), transparent 55%),
+      linear-gradient(135deg, #0e0e0e, #1a1a1a);
+  }
+
+  article p {
+    color: rgba(255,255,255,0.78);
+    font-size:16.5px;
+    line-height:1.75;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  article p.disclaimer {
+    margin-top: 40px;
+    color: rgba(255,255,255,0.78);
+    font-size:13px;
+    font-style:italic;
+    line-height:1.7;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+  article .section-head {
+    font-size: 22px;
+    font-weight: 500;
+    color:#f5f5f3;
+    letter-spacing:-0.005em;
+    margin: 44px 0 18px 0;
+    padding-left: 14px;
+    border-left: 2px solid #007dff;
+    line-height:1.35;
+  }
+  article .section-head:first-of-type {
+    margin-top: 0;
+  }
+  article .takeaway-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 32px 0;
+  }
+  article .takeaway-list li {
+    position: relative;
+    padding-left: 26px;
+    color: rgba(255,255,255,0.85);
+    font-size: 16.5px;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-bottom: 14px;
+  }
+  article .takeaway-list li::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 12px;
+    width: 14px; height: 1px;
+    background: #007dff;
+  }
+  article .inline-img {
+    margin: 36px 0 20px 0;
+    border-radius: 4px;
+    overflow:hidden;
+    border:1px solid rgba(255,255,255,0.06);
+    background:#0a0a0a;
+  }
+  article .inline-img + .section-head {
+    margin-top: 24px;
+  }
+  article .inline-img img {
+    width:100%; height:auto;
+    filter: saturate(0.92);
+  }
+
+  .recent-section {
+    margin-top: 80px;
+    padding-top: 48px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+  .recent-section h2 {
+    font-size: 14px; font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.55);
+    margin-bottom: 28px;
+  }
+  .recent-grid {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+  .recent-card {
+    color:#f5f5f3; text-decoration:none;
+    transition: transform 0.35s ease;
+  }
+  .recent-card:hover { transform: translateY(-3px); }
+  .recent-media {
+    aspect-ratio: 16 / 10;
+    overflow:hidden; border-radius: 4px;
+    border:1px solid rgba(255,255,255,0.06);
+    background:#0a0a0a; margin-bottom: 14px;
+  }
+  .recent-media img {
+    width:100%; height:100%; object-fit:cover;
+    filter: saturate(0.9);
+    transition: transform 0.5s ease, filter 0.5s ease;
+  }
+  .recent-card:hover .recent-media img { transform: scale(1.05); filter: saturate(1); }
+  .recent-media .placeholder {
+    width:100%; height:100%;
+    background:
+      radial-gradient(circle at 30% 20%, rgba(0,125,255,0.12), transparent 55%),
+      linear-gradient(135deg, #0e0e0e, #1a1a1a);
+  }
+  .recent-card .meta {
+    display:flex; gap:10px; align-items:center; flex-wrap:wrap;
+    margin-bottom: 10px;
+  }
+  .recent-card .meta .date {
+    font-size:10.5px; font-weight:500; letter-spacing:0.1em;
+    text-transform:uppercase; color: rgba(255,255,255,0.55);
+  }
+  .recent-card .meta .duration {
+    font-size:10.5px; color: rgba(255,255,255,0.4);
+  }
+  .recent-headline {
+    font-size:16.5px; font-weight:500;
+    line-height:1.35; letter-spacing:-0.005em;
+    margin-bottom: 6px;
+    transition: color 0.3s ease;
+  }
+  .recent-card:hover .recent-headline { color:#007dff; }
+  .recent-subtitle {
+    font-size:13px; color:rgba(255,255,255,0.5);
+    line-height:1.5; font-weight:300;
+  }
+
+  footer {
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding: 40px;
+  }
+  .footer-inner {
+    max-width:1200px; margin:0 auto;
+    display:flex; justify-content:space-between; align-items:center;
+    flex-wrap:wrap; gap:20px;
+  }
+  .footer-links {
+    display:flex; gap:28px; list-style:none; flex-wrap:wrap;
+  }
+  .footer-links a {
+    color: #f5f5f3; text-decoration:none;
+    font-size:13px; opacity:0.78; transition: opacity 0.25s ease;
+  }
+  .footer-links a:hover { opacity:1; }
+  .footer-copy {
+    color:#f5f5f3; font-size:13px; opacity:0.78;
+  }
+
+  @media (max-width: 820px) {
+    .nav-toggle { display:block; }
+    .nav-links {
+      display:flex;
+      position:fixed;
+      top:0; left:0; right:0; bottom:0;
+      width:100vw; height:100vh; height:100dvh;
+      background: rgba(9,10,14,0.98);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      flex-direction:column;
+      justify-content:center; align-items:center;
+      gap:0; padding:0; margin:0;
+      z-index:200;
+      opacity:0; visibility:hidden;
+      transform: translateY(-12px);
+      transition: opacity 0.35s ease, transform 0.35s ease, visibility 0s linear 0.35s;
+      pointer-events:none;
+    }
+    .nav-links.open {
+      opacity:1; visibility:visible; transform: translateY(0); pointer-events:auto;
+      transition: opacity 0.35s ease, transform 0.35s ease;
+    }
+    .nav-links li { text-align:center; width:100%; list-style:none; }
+    .nav-links a {
+      display:block;
+      padding: 18px 24px;
+      font-size: 22px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      opacity: 0.92;
+    }
+    .nav-links a::after { display: none; }
+    html.light-mode .nav-links { background: rgba(246,245,241,0.98); }
+    .nav-links a.active { opacity: 1; }
+    .nav-logo img { height:28px; }
+    main { padding: 44px 24px 90px; }
+    article p { font-size:15.5px; }
+    article .section-head { font-size: 20px; }
+    .recent-grid { grid-template-columns: 1fr; gap: 20px; }
+  }
+
+  @media (max-width: 600px) {
+    main { padding: 32px 20px 72px; }
+    .back-link { margin-bottom: 24px; font-size: 11px; }
+    .article-header { padding-bottom: 28px; margin-bottom: 28px; }
+    .eyebrow { gap: 10px; margin-bottom: 16px; }
+    article p { font-size: 15px; line-height: 1.7; }
+    article .takeaway-list li { font-size: 15px; line-height: 1.6; }
+    article .section-head { font-size: 18px; margin: 32px 0 14px 0; padding-left: 12px; }
+    .hero-img { margin-bottom: 28px; }
+    article .inline-img { margin: 24px 0 16px 0; }
+    article p.disclaimer { font-size: 12px; padding-top: 20px; margin-top: 32px; }
+    .recent-section { margin-top: 56px; padding-top: 36px; }
+    .recent-section h2 { font-size: 13px; margin-bottom: 20px; }
+    .recent-headline { font-size: 15.5px; }
+    footer { padding: 32px 20px; }
+    .footer-inner { flex-direction: column; gap: 16px; text-align: center; }
+    .footer-links { justify-content: center; gap: 14px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .recent-card, .recent-media img, .hero-img img, .back-link {
+      transition:none !important;
+    }
+  }
+
+  /* -- light-mode overrides -- */
+  html.light-mode body { background:#f6f5f1; color:#0a0b0f; }
+  html.light-mode nav { background: rgba(246,245,241,0.92); border-bottom-color: rgba(0,0,0,0.08); }
+  html.light-mode .nav-logo img { filter: invert(1); }
+  html.light-mode .nav-links a { color:#0a0b0f; }
+  html.light-mode .nav-toggle span { background:#0a0b0f; }
+  html.light-mode .scroll-progress { background:#007dff; }
+  html.light-mode .back-link { color: rgba(0,0,0,0.5); }
+  html.light-mode .back-link:hover { color:#007dff; }
+  html.light-mode .eyebrow .date { color: rgba(0,0,0,0.55); }
+  html.light-mode .eyebrow .duration { color: rgba(0,0,0,0.4); }
+  html.light-mode .category { border-color:#007dff; color:#007dff; }
+  html.light-mode .category.general { border-color: rgba(0,0,0,0.25); color: rgba(0,0,0,0.6); }
+  html.light-mode .article-title { color:#0a0b0f; }
+  html.light-mode .hero-img { border-color: rgba(0,0,0,0.06); background:#e8e7e3; }
+  html.light-mode article p { color: rgba(0,0,0,0.7); }
+  html.light-mode article .section-head { color:#0a0b0f; }
+  html.light-mode article .takeaway-list li { color: rgba(0,0,0,0.78); }
+  html.light-mode article .inline-img { border-color: rgba(0,0,0,0.06); background:#e8e7e3; }
+  html.light-mode article p.disclaimer { color: rgba(0,0,0,0.6); border-top-color: rgba(0,0,0,0.1); }
+  html.light-mode .recent-section { border-top-color: rgba(0,0,0,0.08); }
+  html.light-mode .recent-section h2 { color: rgba(0,0,0,0.55); }
+  html.light-mode .recent-card { color:#0a0b0f; }
+  html.light-mode .recent-media { border-color: rgba(0,0,0,0.06); background:#e8e7e3; }
+  html.light-mode .recent-card .meta .date { color: rgba(0,0,0,0.55); }
+  html.light-mode .recent-card .meta .duration { color: rgba(0,0,0,0.4); }
+  html.light-mode .recent-headline { color:#0a0b0f; }
+  html.light-mode .recent-card:hover .recent-headline { color:#007dff; }
+  html.light-mode .recent-subtitle { color: rgba(0,0,0,0.5); }
+  html.light-mode footer { border-top-color: rgba(0,0,0,0.08); }
+  html.light-mode .footer-links a { color:#0a0b0f; }
+  html.light-mode .footer-copy { color:#0a0b0f; }
+  html.light-mode .hero-img.placeholder { background: radial-gradient(circle at 30% 20%, rgba(0,125,255,0.12), transparent 55%), linear-gradient(135deg, #e8e7e3, #dddcd8); }
+  html.light-mode .recent-media .placeholder { background: radial-gradient(circle at 30% 20%, rgba(0,125,255,0.08), transparent 55%), linear-gradient(135deg, #e8e7e3, #dddcd8); }
+
+  /* -- theme toggle -- */
+  .theme-toggle {
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.08);
+    display: flex; align-items: center; justify-content: center;
+    margin-left: 28px; flex-shrink: 0;
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+    cursor: pointer;
+    transition: border-color 0.25s, background 0.25s, color 0.25s;
+  }
+  .theme-toggle:hover {
+    border-color: rgba(255,255,255,0.45);
+    background: rgba(255,255,255,0.14);
+    color: #ffffff;
+  }
+  .theme-toggle .moon-icon { display: none; }
+  html.light-mode .theme-toggle .sun-icon { display: none; }
+  html.light-mode .theme-toggle .moon-icon { display: block; }
+  html.light-mode .theme-toggle {
+    border-color: rgba(0,0,0,0.15);
+    background: rgba(0,0,0,0.05);
+    color: rgba(0,0,0,0.6);
+  }
+  html.light-mode .theme-toggle:hover {
+    border-color: rgba(0,0,0,0.35);
+    background: rgba(0,0,0,0.1);
+    color: #0a0b0f;
+  }
+</style>
+<script>(function(){var p=new URLSearchParams(location.search);var s=localStorage.getItem('eterna-theme');if(p.has('light')||s==='light'){document.documentElement.classList.add('light-mode');localStorage.setItem('eterna-theme','light');}else if(s==='dark'){localStorage.setItem('eterna-theme','dark');}})();</script>
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<nav>
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-logo" aria-label="Eterna Capital">
+      <img src="../svgs/eterna-logo-full-white.svg" alt="Eterna Capital">
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../team.html">Team</a></li>
+      <li><a href="../portfolio.html">Portfolio</a></li>
+      <li><a href="../news.html" class="active">News</a></li>
+      <li><a href="https://eternacapital.medium.com" target="_blank" rel="noopener">Blog</a></li>
+    </ul>
+    <a id="themeToggle" class="theme-toggle" aria-label="Switch theme">
+      <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </a>
+    <button class="nav-toggle" id="navToggleBtn" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<main>
+  <a href="../news.html" class="back-link"><span aria-hidden="true">←</span> All news</a>
+
+  <header class="article-header">
+    <div class="eyebrow">
+      <span class="date">Nov 5, 2024</span>
+      <span class="category general">General</span>
+      <span class="duration">3 min</span>
+    </div>
+    <h1 class="article-title">Our Thoughts on the U.S. Election and Its Potential Impact on the Blockchain and Digital Asset Industry</h1>
+  </header>
+
+  <article>
+      <p>Today marks Election Day in the United States, with more than 150 million Americans expected to cast their ballots in this year’s presidential election. With a competitive race between the two candidates, some polls predict slightly higher turnout compared to 2020.</p>
+      <p>As of last night, the U.S. presidential election between Vice President Kamala Harris and former President Donald Trump remains highly competitive, with both national polls and betting markets indicating a close contest.</p>
+      <figure class="inline-img"><img src="../images/img-bd6ddaea5d7a.png" alt="" loading="lazy"></figure>
+      <h2 class="section-head">Latest Polling Status:</h2>
+      <p>1) National Polls: Recent national polls show Harris with a slight lead over Trump.</p>
+      <p>FiveThirtyEight’s polling average, as of November 1, 2024, places Harris at 48.7% and Trump at 47.3%.</p>
+      <p>Source: FT research, FiveThirtyEight — Date: 1st November 2024</p>
+      <p>Similarly, 270toWin’s polling averages reflect a tight race, with Harris leading in key states like Michigan and Wisconsin, while Trump leads in Florida and Texas.</p>
+      <p>Source: 270ToWin — Date: 4th November 2024</p>
+      <p>2) State Polls: The election outcome will likely hinge on several battleground states:</p>
+      <p>Pennsylvania: Trump leads with 50% to Harris’s 47%.</p>
+      <p>Wisconsin: Trump narrowly leads at 49% over Harris’s 48%.</p>
+      <p>North Carolina: Harris leads with 49% to Trump’s 48%.</p>
+      <p>These slim margins underscore the uncertainty surrounding the election outcome.</p>
+      <figure class="inline-img"><img src="../images/img-e4cf73906422.png" alt="" loading="lazy"></figure>
+      <figure class="inline-img"><img src="../images/img-38cdf36ffc9c.png" alt="" loading="lazy"></figure>
+      <h2 class="section-head">Betting and Prediction Markets Status:</h2>
+      <p>Betting and prediction markets have shown fluctuating odds, with recent trends favoring Trump. Analysts suggest this shift may be influenced by factors such as economic indicators and campaign dynamics.</p>
+      <p>Polymarket: As of November 4th, 2024, the platform indicates a 56% probability of a Trump victory.</p>
+      <p>Source: Polymarket — Date: 4th November 2024</p>
+      <p>Betfair Exchange: The U.K.-based betting platform points to a “likely” Trump win.</p>
+      <p>The 2024 U.S. presidential election remains highly contested, with national and state polls indicating a close race and betting markets reflecting similar uncertainty. Voter turnout and developments in key swing states will likely play a critical role in determining the outcome.</p>
+      <figure class="inline-img"><img src="../images/img-5bccf5022c6f.png" alt="" loading="lazy"></figure>
+      <h2 class="section-head">What Crypto Enthusiasts Think:</h2>
+      <p>Recent studies indicate a strong interest in digital assets among Millennials and Gen Z in the U.S.:</p>
+      <p>Millennials (ages 26–41): Approximately 43% have invested in digital assets.</p>
+      <p>Gen Z (ages 18–25): Around 22% have invested in digital assets.</p>
+      <p>Additionally, a Charles Schwab survey found that nearly 50% of both Millennials and Gen Z are interested in including digital assets in their retirement portfolios. These generations could collectively contribute about 60 million votes this year, representing a substantial portion of the electorate. Their participation may be pivotal, especially in swing states where their preferences could shape the election’s outcome.</p>
+      <p>A recent report from a16z (State of Crypto Report — 2024) analysed the growth of “crypto search interest” across U.S. states from 2020 to today. In swing states, Pennsylvania and Wisconsin — two battlegrounds projected to be among the closest races — ranked fourth and fifth, respectively, for the largest increases in crypto-related search interest, as measured by Google Trends. Michigan ranked eighth, while interest in Georgia remained steady. Meanwhile, Arizona and Nevada saw moderate declines in crypto-related search interest.</p>
+      <p>Source: a16z crypto State of Crypto Report 2024</p>
+      <p>It’s fair to say that crypto has emerged as a central political issue in the lead-up to the U.S. election, with many voters supporting the candidate with the most positive stance on digital assets.</p>
+      <figure class="inline-img"><img src="../images/img-93973f52f555.png" alt="" loading="lazy"></figure>
+      <h2 class="section-head">Impact of the Election Outcome on the Blockchain and Digital Asset Industry:</h2>
+      <p>The market consensus is that the outcome of the 2024 U.S. presidential election between Vice President Kamala Harris and former President Donald Trump is likely to significantly influence the blockchain and digital asset industry, given their differing policy perspectives.</p>
+      <p>Donald Trump’s Stance:</p>
+      <p>Pro-Crypto Initiatives: Trump has actively sought support from the crypto community, expressing a goal to make the U.S. the “crypto capital of the world.” He has accepted crypto donations for his campaign and released non-fungible token (NFT) collections.</p>
+      <p>Regulatory Approach: Trump has pledged to replace current SEC Chair Gary Gensler with a more crypto-friendly leader, aiming to reduce regulatory pressures on digital asset firms.</p>
+      <p>Kamala Harris’s Stance:</p>
+      <p>Cautious Support: Harris has expressed support for digital asset innovation while prioritising consumer and investor protection. Her campaign has engaged with crypto industry representatives, indicating a potential shift toward a balanced regulatory framework.</p>
+      <p>Regulatory Continuity: Harris’s approach may involve continuing the current administration’s policies with some adjustments, focusing on a balanced and stable framework for digital assets.</p>
+      <h2 class="section-head">Potential Impacts:</h2>
+      <p>Under a Trump Administration (Pro-Growth, Reduced Regulation): A Trump presidency could provide a more favorable environment for the crypto industry with reduced regulatory constraints, fostering innovation and potentially making the U.S. a more competitive crypto hub globally. Trump’s administration may prioritise regulatory reform, possibly replacing key figures in agencies like the SEC with crypto-friendly officials, which could reduce enforcement actions. However, reduced oversight may raise concerns about consumer protection and market stability.</p>
+      <p>Under a Harris Administration (Innovation-Friendly, Balanced Regulation): Harris’s administration could offer a structured environment that encourages innovation while implementing safeguards to protect consumers and ensure financial stability. This approach could provide clearer regulatory guidelines, promoting long-term growth but potentially introducing short-term compliance requirements and continued uncertainty. Harris’s administration may also support blockchain-based financial systems under a controlled framework, appealing to institutional investors and attracting more traditional finance participants.</p>
+      <p>In Summary: A Trump victory might lead to a more relaxed regulatory environment for the blockchain and digital asset industry, fostering rapid growth. Conversely, a Harris win could result in a more structured approach that balances innovation with necessary protections, supporting sustainable development in the space.</p>
+      <h2 class="section-head">Our Take:</h2>
+      <p>While industry consensus considers Trump to be the better outcome, we see it slightly differently and believe a Harris win may not be as detrimental in the long term as expected. We anticipate short-term price fluctuations to be volatile, but we believe that both outcomes have the potential to benefit the crypto industry in the medium to long term. Each administration would bring a unique approach, with differing paces and risk profiles.</p>
+      <p>At Eterna Capital, we have always considered regulatory frameworks as a necessity and requirement to help shape thoughtful regulation that fosters both user protection and innovation. While the current U.S. administration has done a poor job of providing clarity and support for the digital asset industry, we continue to advocate for greater transparency and better governance — principles central to the ethos of Web3. Regardless of today’s vote outcome, it is now time for key stakeholders to set clear and appropriate rules to help U.S. consumers participate in and U.S. founders build what we consider to be the future of the Internet.</p>
+      <p>We look forward to continue supporting disciplined entrepreneurs and founders who are committed to building a healthier and more sustainable industry. For us, Web3 is an undeniable innovation that will prevail in the long run.</p>
+      <p class="disclaimer">Disclaimer: This post is for general information purposes only. It does not constitute investment advice or a recommendation or solicitation to buy or sell any investment and should not be used in the evaluation of the merits of making any investment decision. It should not be relied upon for accounting, legal or tax advice, or investment recommendations. This post reflects the current opinions of the authors and does not necessarily reflect the opinions of Eterna Capital, its affiliates, or individuals associated with Eterna Capital. The opinions reflected herein are subject to change without being updated.</p>
+  </article>
+
+  <section class="recent-section"><h2>Recent posts</h2><div class="recent-grid">
+      <a class="recent-card" href="../news/eterna-s-insights---march-2026.html">
+        <div class="recent-media"><img src="../images/img-3d011148c289.png" alt="" loading="lazy"></div>
+        <div class="meta">
+          <span class="date">Apr 8, 2026</span>
+          <span class="category">Insights</span>
+          <span class="duration">4 min</span>
+        </div>
+        <h3 class="recent-headline">Eterna&#x27;s Insights - March 2026</h3>
+        <p class="recent-subtitle">SEC and CFTC Redefine Digital Asset Classification</p>
+      </a>
+      <a class="recent-card" href="../news/eterna-s-insights---february-2026.html">
+        <div class="recent-media"><img src="../images/img-802d08524884.jpg" alt="" loading="lazy"></div>
+        <div class="meta">
+          <span class="date">Mar 6, 2026</span>
+          <span class="category">Insights</span>
+          <span class="duration">4 min</span>
+        </div>
+        <h3 class="recent-headline">Eterna&#x27;s Insights - February 2026</h3>
+        <p class="recent-subtitle">Base Moves Away from OP Stack to Control Its Own Stack</p>
+      </a>
+      <a class="recent-card" href="../news/eterna-s-insights---january-2026.html">
+        <div class="recent-media"><img src="../images/img-03d15f304922.png" alt="" loading="lazy"></div>
+        <div class="meta">
+          <span class="date">Feb 5, 2026</span>
+          <span class="category">Insights</span>
+          <span class="duration">4 min</span>
+        </div>
+        <h3 class="recent-headline">Eterna&#x27;s Insights - January 2026</h3>
+        <p class="recent-subtitle">Crypto at Davos: From Sideshow to Center Stage</p>
+      </a></div></section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <ul class="footer-links">
+      <li><a href="../legal/terms-and-conditions.html">Terms &amp; Conditions</a></li>
+      <li><a href="../legal/privacy-policy.html">Privacy Policy</a></li>
+      <li><a href="../legal/disclaimer.html">Disclaimer</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1Ve_68D14wohAL73UsE2gkvMCteRnXhA0" target="_blank" rel="noopener">Brand Kit</a></li>
+    </ul>
+    <span class="footer-copy">&copy; 2026 Eterna Capital</span>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var bar = document.getElementById('scrollProgress');
+    function update(){
+      var h = document.documentElement;
+      var p = (h.scrollTop) / (h.scrollHeight - h.clientHeight);
+      bar.style.width = (p*100).toFixed(2) + '%';
+    }
+    window.addEventListener('scroll', update, {passive:true});
+    update();
+  })();
+  (function(){
+    var t = document.getElementById('navToggleBtn');
+    var l = document.getElementById('navLinks');
+    if(!t || !l) return;
+    function close(){ t.classList.remove('open'); l.classList.remove('open'); document.body.classList.remove('nav-open'); t.setAttribute('aria-expanded','false'); }
+    function open(){ t.classList.add('open'); l.classList.add('open'); document.body.classList.add('nav-open'); t.setAttribute('aria-expanded','true'); }
+    t.addEventListener('click', function(){ l.classList.contains('open') ? close() : open(); });
+    l.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', close); });
+    document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && l.classList.contains('open')) close(); });
+  })();
+  (function(){
+    var toggle = document.getElementById('themeToggle');
+    if (!toggle) return;
+    var isLight = document.documentElement.classList.contains('light-mode');
+    toggle.href = isLight ? window.location.pathname : window.location.pathname + '?light';
+    toggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      if (document.documentElement.classList.contains('light-mode')) {
+        localStorage.setItem('eterna-theme', 'dark');
+        var url = new URL(window.location);
+        url.searchParams.delete('light');
+        window.location.href = url.toString();
+      } else {
+        localStorage.setItem('eterna-theme', 'light');
+        var url = new URL(window.location);
+        url.searchParams.set('light', '');
+        window.location.href = url.toString();
+      }
+    });
+  })();
+  (function(){
+    if (document.documentElement.classList.contains('light-mode')) {
+      var backLink = document.querySelector('.back-link');
+      if (backLink && backLink.href.includes('news.html')) {
+        backLink.href = backLink.href.replace('news.html', 'news-light.html');
+      }
+      document.querySelectorAll('.nav-links a').forEach(function(a) {
+        var h = a.getAttribute('href');
+        if (h && h.startsWith('../') && h.endsWith('.html') && !h.includes('-light') && !h.includes('medium.com')) {
+          a.setAttribute('href', h.replace('.html', '-light.html'));
+        }
+      });
+      document.querySelectorAll('.nav-logo').forEach(function(a) {
+        var h = a.getAttribute('href');
+        if (h && h.endsWith('index.html') && !h.includes('-light')) {
+          a.setAttribute('href', h.replace('index.html', 'index-light.html'));
+        }
+      });
+    }
+  })();
+  (function(){
+    if (document.documentElement.classList.contains('light-mode')) {
+      document.querySelectorAll('.recent-card').forEach(function(a) {
+        if (a.href && !a.href.includes('?light')) {
+          a.href += '?light';
+        }
+      });
+    }
+  })();
+</script>
+</body>
+</html>

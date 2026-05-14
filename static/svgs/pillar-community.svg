@@ -1,0 +1,10 @@
+<svg viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left circle (static, no breatheL) -->
+  <circle cx="62" cy="80" r="40" stroke="white" stroke-width="1.5" fill="none" opacity="0.8"/>
+  <!-- Right circle (static, no breatheR) -->
+  <circle cx="98" cy="80" r="40" stroke="white" stroke-width="1.5" fill="none" opacity="0.8"/>
+  <!-- Intersection circle (static, no pulseSmall) -->
+  <circle cx="80" cy="80" r="8" stroke="white" stroke-width="1" fill="none" opacity="0.5"/>
+  <!-- Dot at center of intersection (static, no pulse) -->
+  <circle cx="80" cy="80" r="2.5" fill="white" opacity="0.4"/>
+</svg>
