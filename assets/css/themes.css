@@ -1,0 +1,110 @@
+/* ==========================================================================
+   Theme Definitions — Dark (default) & Light
+   ========================================================================== */
+
+:root {
+  /* Body */
+  --bg: #090a0e;
+  --text: #f5f5f3;
+
+  /* Navigation */
+  --nav-bg: rgba(9, 10, 14, 0.92);
+  --nav-border: rgba(255, 255, 255, 0.08);
+  --nav-logo-filter: none;
+  --nav-link-color: #f5f5f3;
+  --nav-toggle-span-bg: #fff;
+  --mobile-nav-bg: rgba(9, 10, 14, 0.98);
+
+  /* Accent */
+  --accent: #007dff;
+  --accent-hover: #3999fb;
+
+  /* Muted / secondary text */
+  --muted: rgba(255, 255, 255, 0.55);
+
+  /* Cards */
+  --card-bg: #1c1d20;
+  --card-border: rgba(255, 255, 255, 0.08);
+  --card-hover-border: rgba(0, 125, 255, 0.3);
+
+  /* Borders (generic) */
+  --border: rgba(255, 255, 255, 0.08);
+
+  /* Footer */
+  --footer-border: rgba(255, 255, 255, 0.08);
+  --footer-text: #f5f5f3;
+
+  /* Theme toggle */
+  --toggle-border: rgba(255, 255, 255, 0.2);
+  --toggle-bg: rgba(255, 255, 255, 0.08);
+  --toggle-color: rgba(255, 255, 255, 0.85);
+  --toggle-hover-border: rgba(255, 255, 255, 0.45);
+  --toggle-hover-bg: rgba(255, 255, 255, 0.14);
+
+  /* Category badges */
+  --category-border: #007dff;
+  --category-color: #007dff;
+  --category-general-border: rgba(255, 255, 255, 0.35);
+  --category-general-color: rgba(255, 255, 255, 0.75);
+
+  /* Image / placeholder */
+  --placeholder-bg1: rgba(0, 125, 255, 0.16);
+  --placeholder-from: #0e0e0e;
+  --placeholder-to: #1a1a1a;
+  --img-bg: #0a0a0a;
+  --img-border: rgba(255, 255, 255, 0.06);
+
+  /* Article / prose */
+  --article-p-color: rgba(255, 255, 255, 0.7);
+  --article-section-head-color: #f5f5f3;
+  --takeaway-li-color: rgba(255, 255, 255, 0.78);
+  --disclaimer-color: rgba(255, 255, 255, 0.6);
+  --disclaimer-border: rgba(255, 255, 255, 0.1);
+}
+
+/* ------------------------------------------------------------------
+   Light mode overrides
+   ------------------------------------------------------------------ */
+
+html.light-mode {
+  --bg: #f6f5f1;
+  --text: #0a0b0f;
+
+  --nav-bg: rgba(246, 245, 241, 0.92);
+  --nav-border: rgba(0, 0, 0, 0.08);
+  --nav-logo-filter: invert(1);
+  --nav-link-color: #0a0b0f;
+  --nav-toggle-span-bg: #0a0b0f;
+  --mobile-nav-bg: rgba(246, 245, 241, 0.98);
+
+  --muted: rgba(0, 0, 0, 0.55);
+
+  --card-bg: #e8e7e3;
+  --card-border: rgba(0, 0, 0, 0.06);
+
+  --border: rgba(0, 0, 0, 0.08);
+
+  --footer-border: rgba(0, 0, 0, 0.08);
+  --footer-text: #0a0b0f;
+
+  --toggle-border: rgba(0, 0, 0, 0.15);
+  --toggle-bg: rgba(0, 0, 0, 0.05);
+  --toggle-color: rgba(0, 0, 0, 0.6);
+  --toggle-hover-border: rgba(0, 0, 0, 0.35);
+  --toggle-hover-bg: rgba(0, 0, 0, 0.1);
+
+  --category-general-border: rgba(0, 0, 0, 0.25);
+  --category-general-color: rgba(0, 0, 0, 0.6);
+
+  --placeholder-bg1: rgba(0, 125, 255, 0.12);
+  --placeholder-from: #e8e7e3;
+  --placeholder-to: #dddcd8;
+  --img-bg: #e8e7e3;
+  --img-border: rgba(0, 0, 0, 0.06);
+
+  --article-p-color: rgba(0, 0, 0, 0.7);
+  --article-section-head-color: #0a0b0f;
+  --takeaway-li-color: rgba(0, 0, 0, 0.78);
+  --disclaimer-color: rgba(0, 0, 0, 0.6);
+  --disclaimer-border: rgba(0, 0, 0, 0.1);
+}

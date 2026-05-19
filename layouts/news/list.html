@@ -1,0 +1,118 @@
+{{ define "main" }}
+<main>
+  <header class="page-header reveal">
+    <h1>News</h1>
+  </header>
+
+  <!-- Category filter -->
+  {{ $pages := .Pages.ByDate.Reverse }}
+  <div class="filter-bar reveal" role="tablist" aria-label="Filter by category">
+    <span class="filter-label">Filter</span>
+    {{ $all := len $pages }}
+    {{ $insights := 0 }}{{ $general := 0 }}
+    {{ range $pages }}{{ if eq .Params.category "Insights" }}{{ $insights = add $insights 1 }}{{ else }}{{ $general = add $general 1 }}{{ end }}{{ end }}
+    <button type="button" class="filter-pill active" data-filter="all" role="tab" aria-selected="true">All <span class="count">{{ $all }}</span></button>
+    <button type="button" class="filter-pill" data-filter="insights" role="tab" aria-selected="false">Insights <span class="count">{{ $insights }}</span></button>
+    <button type="button" class="filter-pill" data-filter="general" role="tab" aria-selected="false">General <span class="count">{{ $general }}</span></button>
+  </div>
+
+  <!-- Featured (latest article) -->
+  {{ with index $pages 0 }}
+  <article class="featured reveal" data-cat="{{ .Params.category | lower }}">
+    <a class="featured-media" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+      {{ with .Params.heroImage }}<img src="{{ printf "images/%s" . | relURL }}" alt="{{ $.Title }}" loading="eager">{{ else }}<div class="placeholder"></div>{{ end }}
+      <span class="featured-tag">Latest issue</span>
+    </a>
+    <div class="featured-body">
+      <div class="meta">
+        <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
+        <span class="category{{ if eq .Params.category "General" }} general{{ end }}">{{ .Params.category }}</span>
+        <span class="duration">{{ .Params.duration }}</span>
+      </div>
+      <h2 class="featured-headline"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <p class="featured-excerpt">{{ .Params.excerpt }}</p>
+      <a class="cta" href="{{ .RelPermalink }}">Read article <span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </article>
+  {{ end }}
+
+  <!-- Secondary (next 3) -->
+  {{ $secondary := first 3 (after 1 $pages) }}
+  {{ if gt (len $secondary) 0 }}
+  <div class="section-label reveal" id="secondaryLabel"><span>More recent</span></div>
+  <section class="secondary" id="secondaryGrid">
+    {{ range $secondary }}
+    <a class="sec-card reveal" href="{{ .RelPermalink }}" data-cat="{{ .Params.category | lower }}">
+      <div class="sec-media">{{ with .Params.heroImage }}<img src="{{ printf "images/%s" . | relURL }}" alt="{{ $.Title }}" loading="lazy">{{ else }}<div class="placeholder"></div>{{ end }}</div>
+      <div class="meta">
+        <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
+        <span class="category{{ if eq .Params.category "General" }} general{{ end }}">{{ .Params.category }}</span>
+        <span class="duration">{{ .Params.duration }}</span>
+      </div>
+      <h3 class="sec-headline">{{ .Title }}</h3>
+      <p class="sec-excerpt">{{ .Params.excerpt }}</p>
+      <span class="sec-cta">Read article <span aria-hidden="true">&rarr;</span></span>
+    </a>
+    {{ end }}
+  </section>
+  {{ end }}
+
+  <!-- Archive (rest) -->
+  {{ $archive := after 4 $pages }}
+  {{ if gt (len $archive) 0 }}
+  <div class="section-label reveal" id="archiveLabel"><span>Archive</span></div>
+  <ul class="archive-list" id="archiveList">
+    {{ range $archive }}
+    <li class="arch-item reveal" data-cat="{{ .Params.category | lower }}">
+      <a href="{{ .RelPermalink }}">
+        <span class="arch-thumb">{{ with .Params.heroImage }}<img src="{{ printf "images/%s" . | relURL }}" alt="" loading="lazy">{{ else }}<div class="thumb-placeholder"></div>{{ end }}</span>
+        <span class="arch-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+        <span class="category{{ if eq .Params.category "General" }} general{{ end }}">{{ .Params.category }}</span>
+        <span class="arch-duration">{{ .Params.duration }}</span>
+        <span class="arch-headline">{{ .Title }}</span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+
+  <p class="empty-hint is-hidden" id="emptyHint">No articles match this filter.</p>
+</main>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+(function(){
+  var pills = document.querySelectorAll('.filter-pill');
+  var featured = document.querySelector('.featured');
+  var secGrid  = document.getElementById('secondaryGrid');
+  var secLabel = document.getElementById('secondaryLabel');
+  var archList = document.getElementById('archiveList');
+  var archLabel= document.getElementById('archiveLabel');
+  var emptyHint= document.getElementById('emptyHint');
+  function apply(filter){
+    var nodes = document.querySelectorAll('[data-cat]');
+    nodes.forEach(function(n){
+      var match = (filter === 'all') || (n.getAttribute('data-cat') === filter);
+      n.classList.toggle('is-hidden', !match);
+    });
+    var secVisible  = secGrid && secGrid.querySelectorAll('.sec-card:not(.is-hidden)').length > 0;
+    var archVisible = archList && archList.querySelectorAll('.arch-item:not(.is-hidden)').length > 0;
+    var featVisible = featured && !featured.classList.contains('is-hidden');
+    if(secGrid) secGrid.classList.toggle('is-hidden', !secVisible);
+    if(secLabel) secLabel.classList.toggle('is-hidden', !secVisible);
+    if(archList) archList.classList.toggle('is-hidden', !archVisible);
+    if(archLabel) archLabel.classList.toggle('is-hidden', !archVisible);
+    if(emptyHint) emptyHint.classList.toggle('is-hidden', featVisible || secVisible || archVisible);
+  }
+  pills.forEach(function(p){
+    p.addEventListener('click', function(){
+      pills.forEach(function(x){ x.classList.remove('active'); x.setAttribute('aria-selected','false'); });
+      p.classList.add('active');
+      p.setAttribute('aria-selected','true');
+      apply(p.getAttribute('data-filter'));
+    });
+  });
+})();
+</script>
+{{ end }}

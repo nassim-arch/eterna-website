@@ -1,0 +1,38 @@
+---
+title: "Eterna's Insights - May 2023"
+date: 2023-06-07
+category: "Insights"
+duration: "4 min"
+excerpt: "Worldcoin, which was co-founded by Sam Altman (CEO of OpenAI) recently raised a $115m Series C round led by Blockchain Capital."
+heroImage: "img-e9884f2010ea.png"
+slug: "eterna-s-insights-may-2023"
+---
+
+<h2 class="section-head">Key Takeaways:</h2>
+<ul class="takeaway-list">
+<li>Worldcoin raised a large round for their ambitious project</li>
+<li>Digital Asset launched a new network with renowned participants</li>
+<li>MiCA was formally signed into law</li>
+<li>Portfolio Spotlight: Blockware Solutions Launches Blockware Marketplace</li>
+</ul>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-e9884f2010ea.png"/></figure>
+<h2 class="section-head">The Currency Quest: Worldcoin's Biometric Revolution and Ripple's CBDC Platform</h2>
+<p>Worldcoin, which was co-founded by Sam Altman (CEO of OpenAI) recently raised a $115m Series C round led by Blockchain Capital. Worldcoin is aiming to create a global digital currency that is distributed to everyone in the world as a universal basic income. As such, it has a 3-part mission: to create a global ID, a global currency, and an app that enables payments, purchases and transfers using its token. To gain access, users must confirm their identity by scanning their Iris through one of Worldcoin’s Orbs. The project so far has attracted more than 1.6m signups in Beta and 500k+ active World App users, but has received criticism over concerns about privacy risks due to the large collection of biometric data.</p>
+<p>With the interest in Central Banking Digital Currencies (CBDC) rapidly growing, Ripple is launching a CBDC Platform. The new platform enables government institutions to oversee and customise every aspect of the CBDC’s life cycle, including creation, distribution, redemption, and removal from circulation. Ripple will be using the e-HKD pilot, a program run by the Hong Kong Monetary Authority, to showcase the platform. Furthermore, Ripple is working with Taiwan’s Fubon Bank to build a product for real estate asset tokenization and equity distribution, under the e-HKD pilot.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-c343308690eb.png"/></figure>
+<h2 class="section-head">Institutional Use Cases Gaining Momentum</h2>
+<p>FinTech company, Digital Asset, has announced Canton Network, a privacy-enabled interoperable blockchain network designed to provide decentralised infrastructure for institutional clients. The goal of the network is to allow previously siloed systems in finance to be interoperable and synchronised in previously difficult ways, unlocking new efficiencies and innovation. Participants in the network include BNP Paribas, Deloitte, Cboe Global Markets, Goldman Sachs, Broadridge, S&amp;P Global, and Microsoft, among many others.</p>
+<p>The use of Distributed Ledger Technology (DLT) for the verification of Carbon Emissions has been a hot topic for a while. EY just announced that they are utilising DLT for the EY OpsChain ESG, a new solution that will provide a single, verifiable view of CO2 emissions to address the needs of enterprises that struggle to accurately measure and track their carbon footprint. In addition, it will provide consumers, business partners, and regulators with the transparency they demand via a trusted platform for emissions and carbon credit traceability within an ecosystem through the use of tokenization. The platform is being developed on Ethereum via the EY Blockchain SaaS platform.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-7cc77c331639.png"/></figure>
+<h2 class="section-head">Are NFTs Still the Future?</h2>
+<p>LG has continued its foray into Web3 by filing a patent application for a technology stack that allows users to trade NFTs on their TV. The filing highlights LGs continued belief in the ongoing consumer demand for NFTs. LG's first work in Web3 was the launch of the Art Lab marketplace in October 2022, which allows users to buy, sell, and enjoy high-quality digital artwork from their TV.</p>
+<p>Formula 1 raced into the world of NFT ticketing at the Monaco Grand Prix. Platinum Group, the leading ticket issuer for F1, released NFT race tickets for Monaco. In addition to access to the event, these tickets will continue to provide utility to holders after the event. Such utility includes hospitality benefits and future race discounts to encourage collectors to stay loyal to the brand.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-758293127d0a.png"/></figure>
+<h2 class="section-head">US Regulatory Issues Open Up the Playing Field</h2>
+<p>The uncertainty around US regulation of the crypto industry has continued with divisions now starting to form at the top level. The US Chamber of Commerce voiced its support for Coinbase in its fight against the SEC. It said that by refusing to respond to Coinbase in its petition to get a clearer regulatory picture, the US SEC is “causing substantial economic harm to both Coinbase and the broader business community.” Coinbase has also stepped up its lobbying efforts through the launch of a new TV advertising campaign to educate the public on blockchain and to confront what it says is a “naïve view” of digital assets.</p>
+<p>China seems to be taking advantage of the regulatory issues in the US and as such released a whitepaper for Web3 development. The paper dubbed “Web3 Innovation and Development White Paper (2023),” focuses on fundamental research areas in the Web3 industry, including AI, XR interactive terminals, and content production tools. According to reports, the whitepaper emphasises Beijing’s intention to enhance policy support and expedite technological advancements to foster the growth of the Web3 industry. The paper coincides with Hong Kong's cryptocurrency regulations that commenced on June 1st. These regulations cover the safe custody of assets, segregation of client assets, and cybersecurity standards. The framework also includes heightened rules for virtual asset platforms seeking to offer products to retail investors compared to other jurisdictions.</p>
+<p>Finally, the EU formally signed its landmark Markets in Crypto Assets (MiCA) regulation into law. The framework is expected to go into effect after it is published in the Official Journal of the European Union, with many of MiCA’s regulations on crypto firms likely being implemented sometime in 2024.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-af14850fc82c.png"/></figure>
+<h2 class="section-head">Eterna Portfolio Company Spotlight: Blockware Solutions Launches Blockware Marketplace</h2>
+<p>Blockware Solutions announced the public launch of its ‘Blockware Marketplace’. The new platform brings transparency and “turnkey mining” to a new level by allowing anyone to buy an ASIC using either onchain Bitcoin or Lightning. As such, customers will be able to start earning Bitcoin mining rewards in minutes, making it easier and more accessible for people to participate in the mining industry. According to Joe Burnet, Head Analyst at Blockware Solutions, “We think this has the potential to transform the mining industry as now anyone can buy an ASIC (Onchain or Lightning), see its historical and live hashrate before purchasing, and be earning BTC mining rewards in minutes.”</p>
+<p class="disclaimer">Disclaimer: this newsletter was put together for informational purposes only based on our review and analysis. This should not be construed as a solicitation, offer, or recommendation to acquire or dispose of any investment or engage in any transaction.</p>

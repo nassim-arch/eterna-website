@@ -1,0 +1,48 @@
+{{ define "main" }}
+<main>
+  <a href="{{ "news/" | relURL }}" class="back-link"><span aria-hidden="true">&#8592;</span> All news</a>
+
+  <header class="article-header">
+    <div class="eyebrow">
+      <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
+      <span class="category{{ if eq .Params.category "General" }} general{{ end }}">{{ .Params.category }}</span>
+      <span class="duration">{{ .Params.duration }}</span>
+    </div>
+    <h1 class="article-title">{{ .Title }}</h1>
+  </header>
+
+  {{ with .Params.heroImage }}
+  <div class="hero-img">
+    <img src="{{ printf "images/%s" . | relURL }}" alt="{{ $.Title }}">
+  </div>
+  {{ end }}
+
+  <article>
+    {{ .Content }}
+  </article>
+
+  <!-- Recent posts -->
+  {{ $current := . }}
+  {{ $recent := where (where site.RegularPages "Section" "news") ".Permalink" "!=" $current.Permalink }}
+  {{ $recent = ($recent.ByDate.Reverse) | first 3 }}
+  {{ if gt (len $recent) 0 }}
+  <section class="recent-section">
+    <h2>Recent posts</h2>
+    <div class="recent-grid">
+      {{ range $recent }}
+      <a class="recent-card" href="{{ .RelPermalink }}">
+        <div class="recent-media">{{ with .Params.heroImage }}<img src="{{ printf "images/%s" . | relURL }}" alt="" loading="lazy">{{ else }}<div class="placeholder"></div>{{ end }}</div>
+        <div class="meta">
+          <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
+          <span class="category{{ if eq .Params.category "General" }} general{{ end }}">{{ .Params.category }}</span>
+          <span class="duration">{{ .Params.duration }}</span>
+        </div>
+        <h3 class="recent-headline">{{ .Title }}</h3>
+        {{ with .Params.subtitle }}<p class="recent-subtitle">{{ . }}</p>{{ end }}
+      </a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+</main>
+{{ end }}

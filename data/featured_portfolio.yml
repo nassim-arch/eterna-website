@@ -1,0 +1,16 @@
+- name: Kraken
+  url: "https://www.kraken.com"
+- name: Bluesky
+  url: "https://bsky.social/about"
+- name: Space and Time
+  url: "https://www.spaceandtime.io"
+- name: Moto
+  url: "https://www.moto-card.com/"
+- name: 0G Labs
+  url: "https://0g.ai"
+- name: Temple
+  url: "https://templedigitalgroup.com/"
+- name: Camp
+  url: "https://www.campnetwork.xyz"
+- name: Rena Labs
+  url: "https://renalabs.xyz/"

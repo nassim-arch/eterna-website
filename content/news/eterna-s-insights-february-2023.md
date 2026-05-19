@@ -1,0 +1,36 @@
+---
+title: "Eterna's Insights - February 2023"
+date: 2023-03-03
+category: "Insights"
+duration: "4 min"
+slug: "eterna-s-insights-february-2023"
+heroImage: "img-0474e64a7dfd.webp"
+---
+
+<h2 class="section-head">Key Takeaways:</h2>
+<ul class="takeaway-list">
+<li>Cloud providers are jumping into Web3</li>
+<li>Coinbase is trying to onboard the next billion users to the crypto-economy</li>
+<li>The UK is starting to take a stance on crypto regulation</li>
+<li>Music and Web3</li>
+<li>Spotify announced that it is testing a new service called Token Enabled Playlists. The new service allows certain NFT holders to connect their wallets and listen to curated music. The service is currently only available to NFT holders of the Fluf, Moonbords, Kingship, and Overlord communities. Audius and TikTok announced a partnership that will provide Audius artists with an easy way to upload their songs to TikTok. In addition, users new to Audius can now simply create accounts by linking their TikTok profile. From there, users can automatically import over their TikTok information including their verification status. Audius is a decentralised music streaming service built on Ethereum and Solana that currently has over 100k artists on its platform and over 5m monthly active users.</li>
+<li>Cloud Adoption of Web3</li>
+<li>Cloud providers have been springing into Web3. Last month, AWS announced a partnership with Ava Labs (Avalanche Development Studio). This month, Tencent Cloud and Huawei Cloud took big steps into Web3. Tencent Cloud announced multiple collaboration agreements with blockchain firms to support the Web3 ecosystem. They reached an agreement with Ankr (decentralised blockchain infrastructure provider) to provide connections to mainstream blockchain building on Web3 through jointly developing a suite of blockchain API services. They have also reached agreements with Scroll (Layer 2 on Ethereum), Avalanche, and Sui to provide developers with access to non-blockchain enterprises, efficient and fast node settings, and cloud game development tools respectively. Finally, it also introduced a metaverse-in-a-box product for Web3 developers that fully integrates a wide range of infrastructure, high-performance products, out-of-the-box software development kits, and low-code solutions for use in games and media entertainment. Huawei’s Cloud Business announced the launch of a Metaverse and Web3 Alliance project. The project aims to facilitate the speedy adoption and proliferation of blockchain technology in Asia. As such, they have collaborated with Polygon, Deepbrain Chain, Morpheus Labs, and BlockChain solutions.</li>
+<li>Crypto Exchanges Taking Centre Stage</li>
+<li>Coinbase launched the tesnet for Base, a new layer 2 solution built using Optimism’s OP Stack. Base is a secure, low cost, developer friendly way for anyone to build dapps on-chain. According to Coinbase, the goal of Base is to make on-chain the next online and onboard 1bn+ users into the crypto-economy. While it is being built using Optimism, it will not just be limited to Ethereum. Coinbase also announced the Base Ecosystem Fund to support the Base ecosystem.</li>
+<li>In what was a worrying and uncertain moment for the industry, the SEC charged Kraken with securities violations over failing to register the offer and sale of its staking-as-a-service program. According to the SEC, the primary issue was the lack of disclosure surrounding the program. As such, Kraken agreed to shut down its US staking operations and pay a $30m fine to settle the charges.</li>
+<li>UK Taking a Stance</li>
+<li>The UK finally laid out its plan to regulate crypto trading and lending. The UK government introduced a new regulatory framework via a consultation paper with stricter rules for investing and trading. The government proposed a number of measures aimed at bringing regulation of crypto businesses in line with that of traditional finance firms. One key proposal included strengthening rules targeting financial intermediaries and custodians that store crypto on behalf of clients. Another key proposal included tougher transparency requirements on crypto exchanges to ensure they publish relevant disclosure documents and set out clear admission requirements for trading digital tokens. The goal of these proposals is to prevent future collapses like FTX, Celsius, 3AC, among others. Furthermore, the Bank of England Prudential Regulatory Authority (PRA) announced that it will propose rules for issuing and holding digital assets. The rules will be developed in consideration of Basel III rules and the Financial Services and Markets Bill, which is currently being considered by the Parliament.</li>
+<li>Stablecoin Plans</li>
+<li>The Hong Kong’s Monetary Authority (HKMA) laid out regulatory plans which include setting up a regime to supervise stablecoins. The HKMA plans to supervise the governance, issuance, and stabilisation of fiat-backed stablecoins and mandate 100% reserve requirements. This means the value of the reserve assets of a stablecoin arrangement should meet the value of outstanding stablecoins at all times. Israel’s central bank also published proposed rules for stablecoins. The goal of the proposed regulation is to allow the use of stablecoins in the country “while managing the risk inherent in using them, and adjusting the consumer protections and prudential requirements.” As such, the central bank proposed splitting supervisory roles between multiple regulators to enhance efficiency. They also proposed 100% reserve requirements.</li>
+<li>International Push for Adoption</li>
+<li>Abu Dhabi announced a new $2bn initiative called Hub71+ Digital Assets to advance Web3-based innovations. The initiative aspires to provide Web3 startups with access to a range of programs and initiatives, as well as corporate, government, and investment partners in both global markets and the UAE.</li>
+<li>The European Commission announced the launch of the Europe Blockchain Regulatory Sandbox. The sandbox establishes a pan-European framework for regulatory dialogues to increase legal certainty for innovative blockchain solutions. The initiative is part of an EU funding program aimed at bringing businesses into the digital age. The program will support 20 projects involving blockchain application for public and private sectors and will run annually until 2026.</li>
+</ul>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-0474e64a7dfd.webp"/></figure>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-f35e638ecbea.webp"/></figure>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-ade3576f4645.webp"/></figure>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-2cdfef4a9fef.webp"/></figure>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-2563674cfea7.webp"/></figure>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-9c246f31f1ae.webp"/></figure>
+<p class="disclaimer">Disclaimer: this newsletter was put together for informational purposes only based on our review and analysis. This should not be construed as a solicitation, offer, or recommendation to acquire or dispose of any investment or engage in any transaction.</p>

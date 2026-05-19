@@ -1,0 +1,37 @@
+<script>(function(){var s=localStorage.getItem('eterna-theme');if(s!=='dark'){document.documentElement.classList.add('light-mode');}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ if .IsHome }}Eterna Capital{{ else }}{{ .Title }} - Eterna Capital{{ end }}</title>
+
+{{- $themes := resources.Get "css/themes.css" -}}
+{{- $main := resources.Get "css/main.css" -}}
+{{- $base := slice $themes $main -}}
+
+{{- if .IsHome -}}
+  {{- $home := resources.Get "css/pages/home.css" -}}
+  {{- $bundle := $base | append $home | resources.Concat "css/bundle-home.css" | minify | fingerprint -}}
+  <link rel="stylesheet" href="{{ $bundle.RelPermalink }}">
+{{- else if and (eq .Layout "team") -}}
+  {{- $team := resources.Get "css/pages/team.css" -}}
+  {{- $bundle := $base | append $team | resources.Concat "css/bundle-team.css" | minify | fingerprint -}}
+  <link rel="stylesheet" href="{{ $bundle.RelPermalink }}">
+{{- else if and (eq .Layout "portfolio") -}}
+  {{- $portfolio := resources.Get "css/pages/portfolio.css" -}}
+  {{- $bundle := $base | append $portfolio | resources.Concat "css/bundle-portfolio.css" | minify | fingerprint -}}
+  <link rel="stylesheet" href="{{ $bundle.RelPermalink }}">
+{{- else if and .IsSection (eq .Section "news") -}}
+  {{- $newsList := resources.Get "css/pages/news-list.css" -}}
+  {{- $bundle := $base | append $newsList | resources.Concat "css/bundle-news-list.css" | minify | fingerprint -}}
+  <link rel="stylesheet" href="{{ $bundle.RelPermalink }}">
+{{- else if and .IsPage (eq .Section "news") -}}
+  {{- $newsSingle := resources.Get "css/pages/news-single.css" -}}
+  {{- $bundle := $base | append $newsSingle | resources.Concat "css/bundle-news-single.css" | minify | fingerprint -}}
+  <link rel="stylesheet" href="{{ $bundle.RelPermalink }}">
+{{- else if eq .Section "legal" -}}
+  {{- $legal := resources.Get "css/pages/legal.css" -}}
+  {{- $bundle := $base | append $legal | resources.Concat "css/bundle-legal.css" | minify | fingerprint -}}
+  <link rel="stylesheet" href="{{ $bundle.RelPermalink }}">
+{{- else -}}
+  {{- $bundle := $base | resources.Concat "css/bundle-default.css" | minify | fingerprint -}}
+  <link rel="stylesheet" href="{{ $bundle.RelPermalink }}">
+{{- end -}}

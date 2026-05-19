@@ -1,0 +1,270 @@
+/* ==========================================================================
+   Team Page
+   ========================================================================== */
+
+/* Page Header
+   ========================================================================== */
+
+.page-header {
+  padding-top: 120px;
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 16px;
+}
+
+.page-intro {
+  font-size: 1.05rem;
+  font-weight: 300;
+  color: var(--muted);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Spotlight — Alternating Team Member Layout
+   ========================================================================== */
+
+.spotlight {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+  margin-bottom: 96px;
+}
+
+.spotlight.right-photo {
+  direction: rtl;
+}
+
+.spotlight.right-photo > * {
+  direction: ltr;
+}
+
+/* Photo Column
+   ========================================================================== */
+
+.photo-col {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.photo-col img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+  filter: grayscale(0.3);
+  transition: filter 0.5s, transform 0.5s;
+}
+
+.photo-col::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0, 125, 255, 0.08), transparent 70%);
+  border-radius: 12px;
+  pointer-events: none;
+  transition: opacity 0.5s;
+}
+
+.photo-col:hover img {
+  filter: grayscale(0);
+  transform: scale(1.03);
+}
+
+.photo-col:hover::after {
+  opacity: 0;
+}
+
+/* Text Column
+   ========================================================================== */
+
+.text-col {
+  padding: 16px 0;
+}
+
+.role {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #007dff;
+  margin-bottom: 12px;
+}
+
+.firstname {
+  font-size: 2.6rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.lastname {
+  font-size: 2.6rem;
+  font-weight: 200;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+/* Bio Expand
+   ========================================================================== */
+
+.bio-full {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bio-full.open {
+  max-height: 600px;
+}
+
+.bio-full p {
+  font-size: 0.92rem;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+
+/* Expand Button
+   ========================================================================== */
+
+.expand-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  color: #007dff;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 8px 0;
+  margin-top: 16px;
+  transition: color 0.25s;
+}
+
+.expand-btn:hover {
+  color: #3999fb;
+}
+
+.chevron {
+  display: inline-block;
+  transition: transform 0.35s;
+  font-size: 0.7rem;
+}
+
+.bio-full.open ~ .expand-btn .chevron,
+.expand-btn.open .chevron {
+  transform: rotate(180deg);
+}
+
+.btn-text-open {
+  display: none;
+}
+
+.expand-btn.open .btn-text-default {
+  display: none;
+}
+
+.expand-btn.open .btn-text-open {
+  display: inline;
+}
+
+/* LinkedIn Link
+   ========================================================================== */
+
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--muted);
+  margin-top: 12px;
+  transition: color 0.25s;
+}
+
+.linkedin-link:hover {
+  color: #007dff;
+}
+
+.linkedin-link svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Team Section Label
+   ========================================================================== */
+
+.team-section {
+  margin-bottom: 64px;
+}
+
+.team-section h2 {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #007dff;
+  margin-bottom: 48px;
+}
+
+/* ==========================================================================
+   Responsive — Team
+   ========================================================================== */
+
+@media (max-width: 860px) {
+  .spotlight {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-bottom: 64px;
+  }
+
+  .spotlight.right-photo {
+    direction: ltr;
+  }
+
+  .firstname,
+  .lastname {
+    font-size: 2rem;
+  }
+
+  .page-header {
+    margin-bottom: 48px;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-header {
+    padding-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  .page-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .page-intro {
+    font-size: 0.92rem;
+  }
+
+  .firstname,
+  .lastname {
+    font-size: 1.6rem;
+  }
+
+  .spotlight {
+    margin-bottom: 48px;
+  }
+}

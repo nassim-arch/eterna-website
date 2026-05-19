@@ -1,0 +1,39 @@
+- id: mattia
+  firstName: Mattia
+  lastName: Mrvosevic
+  role: General Partner
+  photo: mattia-mrvosevic.jpg
+  bio: "Co-founded Eterna Capital in 2018. Previously a member of BlackRock's Institutional Client Business, where he supported the development and execution of business strategy through market analysis and data-driven decision frameworks. Prior to BlackRock, Mattia spent four years in financial services strategy consulting at Capgemini and EY, advising investment banks, wealth managers, and asset managers. Mattia holds an MSc from Politecnico di Milano."
+  linkedin: "https://www.linkedin.com/in/mattia-mrvosevic-93585433/"
+
+- id: nassim
+  firstName: Nassim
+  lastName: "Olive, CFA"
+  role: General Partner
+  photo: nassim-olive.jpg
+  bio: "Co-founded Eterna Capital in 2018. Previously a member of BlackRock's Financial Institutions Group (FIG), where he covered global and UK-based insurance companies. As part of his role, he was in charge of developing business relationships and providing solutions to clients. Nassim holds a Master's in Finance with Distinction from Imperial College London and is a CFA Charterholder."
+  linkedin: "https://www.linkedin.com/in/nassimolive"
+
+- id: asim
+  firstName: Asim
+  lastName: "Ahmad, CFA"
+  role: Investment Partner
+  photo: asim-ahmad.png
+  bio: "Co-founded Eterna Capital in 2018. Previously a member of BlackRock's Institutional Client Business working with global and UK investment consultants. Before that he served as an investment consultant advising institutional clients on hedge funds and alternatives. Asim holds a BSc in Mathematics and is a CFA Charterholder."
+  linkedin: "https://www.linkedin.com/in/asim-ahmad-cfa/"
+
+- id: naveed
+  firstName: Naveed
+  lastName: Ihsanullah
+  role: Technical Partner
+  photo: img-79752835723c.png
+  bio: "First employee at Algorand, where he served as VP of Engineering. Previously held senior engineering leadership roles at Mozilla, where he led the Quantum Flow initiative that mobilized 400 engineers to double Firefox's performance. Naveed holds an MS in Computer Science from Harvard."
+  linkedin: "https://www.linkedin.com/in/naveedihsanullah/"
+
+- id: matteo
+  firstName: Matteo
+  lastName: Carraro
+  role: Head of Investor Relations
+  photo: img-2473e5b3b95f.png
+  bio: "Brings a combination of capital markets and legal advisory experience from roles at Credit Suisse, BearTooth Advisors, and international law firms Chiomenti Studio Legale and King & Wood. Matteo holds a Master of Laws (LLM) from UC Berkeley."
+  linkedin: "https://www.linkedin.com/in/matteo-e-carr/"

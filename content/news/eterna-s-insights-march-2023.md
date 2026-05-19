@@ -1,0 +1,42 @@
+---
+title: "Eterna's Insights - March 2023"
+date: 2023-04-06
+category: "Insights"
+duration: "4 min"
+excerpt: "The major news of the month was the collapse of two large tech industry friendly banks. The first collapse was Silicon Valley Bank (SVB), who suffered a classic bank run."
+heroImage: "img-75b46b024d89.png"
+slug: "eterna-s-insights-march-2023"
+---
+
+<h2 class="section-head">Key Takeaways:</h2>
+<ul class="takeaway-list">
+<li>Key Takeaways:</li>
+<li>The second and third largest bank collapses in US history</li>
+<li>Layer 2 solutions take centre stage</li>
+<li>The SECs scrutinisation of crypto is accelerating</li>
+<li>Portfolio Spotlight: Onramp Invest’s partnership with Securitize</li>
+</ul>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-75b46b024d89.png"/></figure>
+<h2 class="section-head">2nd and 3rd Largest Bank Collapses in US History</h2>
+<p>The major news of the month was the collapse of two large tech industry friendly banks. The first collapse was Silicon Valley Bank (SVB), who suffered a classic bank run. Following the collapse, the UK branch of SVB was acquired by HSBC UK for £1, bringing relief to a plethora of UK tech firms who warned they could go bust without the help. The US FDIC later announced that a deal had been finalised for First Citizen’s Bank to acquire the deposits and loans of SVB. In a statement, the FDIC said that all depositors of Silicon Valley Bridge Bank, the bridge bank set up by the FDIC after SVB’s failure, will automatically become depositors of First Citizens Bank &amp; Trust Company. Following the collapse of SVB, there was a bank run on Signature Bank (a crypto friendly NY based bank) that saw more than $10bn of deposits withdrawn. The Federal Reserve, the US Treasury, and FDIC released a joint statement to announce the closure of Signature Bank and that depositors (even the uninsured ones) would be made completely whole.</p>
+<p>Both collapses created shockwaves across the tech industry as a whole and the crypto industry was not immune to it given Circle's stablecoin (USDC) exposure to the banks failure (where c.8% of USDC's reserve was held in cash at SVB). USDC faced one of its biggest tests as it de-pegged on the dollar before regaining its peg following the joint government statement that all depositors would be made whole.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-80af38e9a381.png"/></figure>
+<h2 class="section-head">Scaling Up: Layer 2 Solutions Take Centre Stage</h2>
+<p>It has been a significant month for tech developments in crypto, particularly around Layer 2s. Arbitrum (a new Layer 2 scaling solution for Ethereum) finally airdropped its anticipated ARB token, decentralising the protocol to its most engaged users. zkSync launched the first zkEVM (zero knowledge Layer 2 scaling solution) on Ethereum mainnet which was then closely followed by Polygon, who launched a beta version of its own zkEVM on Ethereum mainnet. Furthermore, ConsenSys launched its zkEVM public testnet called Linea, Taiko released its zkEVM Alpha-2 testnet, and Conduit launched a managed rollup service leveraging the OP (Optimism) Stack. Finally, Ethereum developers set a target date of April 12th for the much-anticipated Ethereum Shanghai hard fork. The Shanghai upgrade marks the completion of Ethereum’s full transition to a proof-of-stake (PoS) network, and will enable staked ETH withdrawals.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-9a2bee6ec5ad.png"/></figure>
+<h2 class="section-head">Crypto Enforcement</h2>
+<p>The SEC threatened to sue Coinbase over some of the exchange’s products. The potential enforcement actions would be tied to aspects of Coinbase's spot market as well as its Earn, Prime, and Wallet products. Coinbase Earn is a staking service and staking services have been under scrutiny from the SEC recently, as was evident by their charge against Kraken last month. The CFTC sued Binance Holdings Ltd for letting Americans trade crypto derivatives. The violation within the suit included transactions with ETH, which once again brought up controversy between the CFTC and the SEC about whether ETH is a commodity or a security.</p>
+<p>In addition, Justin Sun, the founder of Tron, was sued by the SEC on allegations of selling and airdropping unregistered securities, fraud, and market manipulation. The regulator is also suing multiple celebrities on illegal touting charges for their roles in allegedly promoting TRX and BTT without disclosing they were paid to do so.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-d1da0adc7e8c.png"/></figure>
+<h2 class="section-head">Salesforce - The New Pioneers of Web3?</h2>
+<p>It has been an eventful month in the NFT space. Meta announced that it will end support for NFTs on Instagram and Facebook to now “focus on other ways to support creators, people, and businesses.” On a more positive note, Salesforce launched a suite of new Web3 products. Its flagship Web3 product, NFT Management, allows businesses to create, manage and deploy NFTs through its CRM platform. The move enables brands to more easily utilise blockchain technology, develop loyalty programmes, and connect digital assets to sales. Salesforce also released Web3 Connect, an API integration that allows brands to offer personalised NFT experiences through their websites and track them using Salesforce.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-712eec2d7858.png"/></figure>
+<h2 class="section-head">NFT Innovation: Getty Images, Flybondi, Ticketmaster, and Sony Lead the Way</h2>
+<p>Getty Images announced it will draw from its collection of over 465 million images, including 135 analog photographs, with a focus on turning never-before-seen archival works into NFTs. Flybondi, an Argentinian airline, has become the first airline to offer tickets as NFTs. The initiative, named Ticket 3.0, enables customers to change the name on the pass, give it away, or transfer it to another individual, removing the typical hurdles when one tries to change ownership. Ticketmaster rolled out an Ethereum NFT token gating feature, which was developed in partnership and launched with Avenged Sevenfold (Metal band). The feature will enable artists to offer up special access to concert and event tickets for eligible NFT owners. Finally, Sony filed a patent titled “NFT Framework For Transferring and Using Digital Assets Between Game Platforms.” The aim is to make assets more interoperable, not only between games, but also hardware, such as computer and consoles.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-1234caa988f5.png"/></figure>
+<h2 class="section-head">European Regulation Coming Into Play</h2>
+<p>The European Parliament voted in favour of three major pieces of anti-money laundering (AML) legislation, which will have an impact on the crypto industry in the following ways. Anonymous crypto payments for goods and services in excess of €1,000 must be subject to AML rules. In addition, the legislation expands the definition of crypto asset service providers (CASPs) to pull in NFT platforms.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-e65ea26b368f.png"/></figure>
+<h2 class="section-head">Eterna Portfolio Company Spotlight: Onramp Invest’s partnership with Securitize</h2>
+<p>Our portfolio company in the spotlight for March is Onramp Invest. Onramp is a comprehensive digital assets management solution that allows Registered Investment Advisors/Financial Advisors (RIAs) to help their clients safely, confidently, and intelligently invest in digital assets. This month, Onramp announced a partnership with Securitize, the leading digital securities company, to broaden and distribute access to tokenised private equity funds from leading investment firms. Four private equity feeder funds tokenised by Securitize are expected to be made available to qualified investors via Onramp’s platform. Securitize was the first platform in the US to tokenise a part of KKR’s Health Care Growth II Private Equity Fund and has launched three tokenised funds with private markets leading company Hamilton Lane.</p>
+<p class="disclaimer">Disclaimer: this newsletter was put together for informational purposes only based on our review and analysis. This should not be construed as a solicitation, offer, or recommendation to acquire or dispose of any investment or engage in any transaction.</p>

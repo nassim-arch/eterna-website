@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="container">
+  <section class="page-header reveal">
+    <h1>{{ .Title }}</h1>
+    <p class="page-intro">{{ .Params.intro }}</p>
+  </section>
+  <div class="filter-bar" role="tablist" aria-label="Filter portfolio by status">
+    <span class="filter-label">Filter</span>
+    {{ $all := len site.Data.portfolio }}
+    {{ $active := 0 }}{{ $exit := 0 }}
+    {{ range site.Data.portfolio }}{{ if eq .status "active" }}{{ $active = add $active 1 }}{{ else }}{{ $exit = add $exit 1 }}{{ end }}{{ end }}
+    <button type="button" class="filter-pill active" data-filter="all" role="tab" aria-selected="true">All <span class="count">{{ $all }}</span></button>
+    <button type="button" class="filter-pill" data-filter="active" role="tab" aria-selected="false">Active <span class="count">{{ $active }}</span></button>
+    <button type="button" class="filter-pill" data-filter="exit" role="tab" aria-selected="false">Exited <span class="count">{{ $exit }}</span></button>
+  </div>
+  <div class="page-bottom">
+    <div class="portfolio-grid" id="portfolioGrid">
+      {{ range site.Data.portfolio }}
+      <a href="{{ .url }}" target="_blank" rel="noopener" class="portfolio-tile" data-status="{{ .status }}">{{ .name }}{{ if eq .status "exit" }} <span class="tile-tag exit">Exit</span>{{ end }}</a>
+      {{ end }}
+    </div>
+    <p class="empty-hint is-hidden" id="portfolioEmptyHint">No companies match this filter.</p>
+  </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+{{ $js := resources.Get "js/portfolio.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}"></script>
+{{ end }}

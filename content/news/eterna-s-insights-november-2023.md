@@ -1,0 +1,41 @@
+---
+title: "Eterna's Insights - November 2023"
+date: 2023-12-11
+category: "Insights"
+duration: "4 min"
+excerpt: "The SBF saga reached a conclusion, as he was convicted on all seven counts of criminal fraud, potentially facing up to 115 years behind bars."
+heroImage: "img-a8b9f0a8f540.png"
+slug: "eterna-s-insights-november-2023"
+---
+
+<h2 class="section-head">Key Takeaways:</h2>
+<ul class="takeaway-list">
+<li>Bitcoin’s bull run continues</li>
+<li>The end of SBF and CZ</li>
+<li>Tokenisation adoption steams</li>
+<li>Portfolio Spotlight: Hex Trust obtains a full VASP license in Dubai</li>
+</ul>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-a8b9f0a8f540.png"/></figure>
+<h2 class="section-head">The End of the Titans</h2>
+<p>The SBF saga reached a conclusion, as he was convicted on all seven counts of criminal fraud, potentially facing up to 115 years behind bars. This landmark trial featured testimonies from notable figures such as Caroline Ellison, former head of Alameda Research, and Gary Wang, co-founder of FTX. Both Ellison and Wang have acknowledged their wrongdoing, pleading guilty to various charges and contributing crucial evidence in support of the prosecution's case.</p>
+<p>Binance has resolved its long-standing investigation by US authorities. It was criminally charged with breaking sanctions and money-transmitting laws and agreed to pay a $4.3 billion fine to settle the allegations, one of the largest fines ever received from a corporate defendant in the US. As a condition of the settlement, Binance's CEO, Changpeng Zhao (commonly known as "CZ"), has relinquished his position after admitting to violations of U.S. anti-money laundering laws and has agreed to a personal fine of $50 million. Richard Teng, former head of regional markets at Binance, will take over as CEO. Following these developments, Binance saw around $1bn of outflows. Still, the outflows were small relative to the more than $65bn of assets that remain on Binance.</p>
+<p>The SEC has continued its clampdown on crypto exchanges. In its latest move, it has sued Kraken, accusing it of illegally operating as a securities exchange without first registering with the regulator. Kraken has also been accused of having deficient internal controls and poor recordkeeping practices. In a similar manner to Coinbase and Ripple, Kraken has stated that it plans to fight and respond to these claims in court.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-10644eebbc36.png"/></figure>
+<h2 class="section-head">Tokenisation: The New Frontier</h2>
+<p>The advantages of tokenisation are becoming increasingly undeniable, sparking a growing wave of governmental and institutional endorsement. The UK's asset managers have been given the go-ahead to develop tokenised versions of their funds, after receiving backing from the FCA and UK Treasury to experiment with the technology. An industry working group, spearheaded by the Investment Association, unveiled a blueprint that paves the way for regulated UK funds to transition their assets onto digital ledgers. Under the proposed framework, FCA-approved funds can integrate tokenisation in their sales and redemptions, subject to strict adherence to criteria such as holding only mainstream investment assets and retaining traditional methods for asset valuation and transaction settlement.</p>
+<p>Furthermore, HSBC announced that it will offer custody services for tokenised securities, utilising the technology from Swiss crypto custody firm Metaco. According to HSBC, the service will complement its HSBC Orion platform for issuing digital assets as well as its recently launched offering for tokenised physical Gold. Finally, Standard Chartered’s venture arm announced that it has launched a tokenisation platform called Libeara, which aims to enable fund managers, governments, and issuers to bring real-world assets onchain or issue regulated security tokens. Libeara has already partnered with FundBridge Capital, a Singaporean-regulated fund platform to help create the tokenised Singapore-dollar government bond fund for accredited investors.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-f0a3bf4c192a.png"/></figure>
+<h2 class="section-head">TradFi Meets Crypto</h2>
+<p>The crypto Spot ETF frenzy has continued into this month, with both Blackrock and Fidelity filing for Spot ETH ETFs, highlighting the sustained interest and a progressive attitude towards the integration of cryptocurrency in traditional financial offerings. However, the green light from the SEC remains suspended in a state of anticipation, with it once again deferring its verdict on Grayscale's Spot ETH ETF proposal until January 2024. In addition, CBOE Digital, the crypto arm of the Chicago Board of Options Exchange, has become the first US-regulated crypto native exchange and clearinghouse to enable both spot and leverage derivatives trading in a single platform. This comes following the announcement that it will list margined BTC and ETH futures. The new product will be supported by trading firms including B2C2, BlockFills, CQG, Cumberland DRW, Jump Trading Group and Marex.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-2f703da5ce47.png"/></figure>
+<h2 class="section-head">Crypto-Native</h2>
+<p>Blast, a new Ethereum Layer 2 from the founders of the Blur NFT marketplace, launched this month. It has already attracted over $500m of locked funds from users seeking yield and rewards. The new layer 2 offers native yield for Ethereum and stablecoins, letting users stake their funds in the network to earn an interest-like return. Despite its initial success in attracting funds, Blast has not been immune to scrutiny, facing pointed questions over its potential resemblance to a Ponzi scheme and security measures.</p>
+<p>The NEAR Foundation and Polygon Labs have joined forces to enhance crosschain interoperability by developing zkWASM, an innovative zero-knowledge (zk) prover specifically designed for WebAssembly (WASM) blockchains. This collaboration will bring Near Protocol closer to Ethereum and will enable blockchains with WASM technology to use Ethereum’s liquidity. Furthermore, zkWASM will maximise developers’ customisability by presenting a variety of prover options for their projects. A standout aspect of zkWASM is its ability to support widely recognised programming languages beyond Solidity, thereby expanding the opportunities for a broader range of developers to engage in the blockchain space.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-8436f57f9fd8.png"/></figure>
+<h2 class="section-head">Security is a Priority</h2>
+<p>KPMG Canada has teamed up with blockchain analytics firm Chainalysis to help companies fight the threat of fraud and criminal activities in the digital assets sector. As part of the partnership, KPMG will provide advanced blockchain monitoring, support, governance and risk management for its clients so that firms can adhere to evolving crypto regulations and advance their anti-money laundering compliance programs. This collaboration is timely, as the digital asset space faces growing security challenges. November marked a concerning peak in crypto-related losses for the year, with over $343 million loss due to hacks and fraudulent activities.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-fd93655a7748.png"/></figure>
+<h2 class="section-head">Eterna Portfolio Company Spotlight:</h2>
+<p>Hex Trust obtains a full VASP license in Dubai</p>
+<p>Hex Trust has obtained a full Virtual Asset Service Provider (VASP) license in Dubai, making it the first fully operational virtual asset custodian in Dubai. As such, Hex Trust has officially launched its operation there, which will include providing Virtual Asset Custodial Services and Staking Services to institutional clients and sophisticated investors.</p>
+<p class="disclaimer">Disclaimer: this newsletter was put together for informational purposes only based on our review and analysis. This should not be construed as a solicitation, offer, or recommendation to acquire or dispose of any investment or engage in any transaction.</p>

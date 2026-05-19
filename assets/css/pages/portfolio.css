@@ -1,0 +1,235 @@
+/* ==========================================================================
+   Portfolio Page
+   ========================================================================== */
+
+/* Page Header
+   ========================================================================== */
+
+.page-header {
+  padding-top: 120px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 16px;
+}
+
+.page-intro {
+  font-size: 1.05rem;
+  font-weight: 300;
+  color: var(--muted);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Filter Bar
+   ========================================================================== */
+
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+
+.filter-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-right: 8px;
+}
+
+.filter-pill {
+  padding: 6px 16px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border: 1px solid var(--card-border);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  transition: border-color 0.25s, background 0.25s, color 0.25s;
+}
+
+.filter-pill:hover {
+  border-color: #007dff;
+}
+
+.filter-pill.active {
+  background: #007dff;
+  border-color: #007dff;
+  color: #fff;
+}
+
+.filter-pill .count {
+  font-size: 0.68rem;
+  opacity: 0.6;
+  margin-left: 4px;
+}
+
+/* Hidden / Empty States
+   ========================================================================== */
+
+.is-hidden {
+  display: none !important;
+}
+
+.empty-hint {
+  text-align: center;
+  padding: 64px 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 300;
+}
+
+/* Portfolio Grid
+   ========================================================================== */
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.portfolio-tile {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: var(--img-bg);
+  border: 1px solid var(--img-border);
+  transition: transform 0.35s, box-shadow 0.35s;
+}
+
+.portfolio-tile::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 10px;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(0, 125, 255, 0.35), transparent 60%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.35s;
+  pointer-events: none;
+}
+
+.portfolio-tile:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0, 125, 255, 0.12);
+}
+
+.portfolio-tile:hover::before {
+  opacity: 1;
+}
+
+.portfolio-tile img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  display: block;
+}
+
+/* Tile Tag (sector badge)
+   ========================================================================== */
+
+.tile-tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 4px 10px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border-radius: 4px;
+  backdrop-filter: blur(8px);
+}
+
+.tile-tag.exit {
+  background: rgba(0, 125, 255, 0.7);
+}
+
+/* Tile Content
+   ========================================================================== */
+
+.tile-visible {
+  padding: 16px;
+}
+
+.tile-visible span {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.tile-visible p {
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-weight: 300;
+  margin-top: 4px;
+  line-height: 1.5;
+}
+
+/* Page Bottom
+   ========================================================================== */
+
+.page-bottom {
+  padding: 64px 0;
+  text-align: center;
+}
+
+.page-bottom p {
+  font-size: 0.92rem;
+  color: var(--muted);
+  font-weight: 300;
+}
+
+/* ==========================================================================
+   Responsive — Portfolio
+   ========================================================================== */
+
+@media (max-width: 900px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .page-header {
+    padding-top: 100px;
+    margin-bottom: 32px;
+  }
+
+  .page-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .filter-bar {
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 380px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+}

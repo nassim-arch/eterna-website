@@ -1,0 +1,49 @@
+---
+title: "Eterna's Insights - March 2025"
+date: 2025-04-07
+category: "Insights"
+duration: "4 min"
+excerpt: "In a historic move, President Trump signed an executive order creating a Strategic Bitcoin Reserve and a U.S. Digital Asset Stockpile, marking the federal government’s first formal step toward integrating digital assets into national strategy."
+heroImage: "img-a4473bbf3991.png"
+slug: "eterna-s-insights-march-2025"
+---
+
+<h2 class="section-head">Key Takeaways:</h2>
+<ul class="takeaway-list">
+<li>Trump Establishes Strategic Bitcoin Reserve</li>
+<li>Stablecoin Momentum Builds as Congress Advances Bipartisan Bills</li>
+<li>Institutional Adoption Headlines DAS Summit 2025 in New York</li>
+<li>Portfolio Spotlight: Stoffel Labs Becomes Part of the Eterna Capital Portfolio</li>
+</ul>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-a4473bbf3991.png"/></figure>
+<h2 class="section-head">Trump Establishes Strategic Bitcoin Reserve as White House Hosts First-Ever Crypto Summit</h2>
+<p>In a historic move, President Trump signed an executive order creating a Strategic Bitcoin Reserve and a U.S. Digital Asset Stockpile, marking the federal government’s first formal step toward integrating digital assets into national strategy. The Strategic Bitcoin Reserve, operated by the Treasury, will be seeded with seized BTC and explicitly prohibited from being sold, while agencies have 30 days to transfer their holdings. The Digital Asset Stockpile will similarly gather all other seized non-BTC crypto, but the Treasury is barred from acquiring more without legislative action. 
+
+Coinciding with the order, the White House hosted the first-ever “Crypto Summit,” gathering executives from Coinbase, Kraken, Solana, Chainlink, and more to discuss digital asset policy. With Trump attending, the summit signaled a dramatic shift in tone and posture toward crypto from the highest levels of government. Analysis shows the U.S. government holds about $7.9 billion in eligible digital assets after legal encumbrances, with up to 88k BTC (~$7.56B) potentially allocated to the new reserve.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-b6024d292251.png"/></figure>
+<h2 class="section-head">Stablecoin Momentum Builds as Congress Advances Bipartisan Bills and Industry Accelerates Deployment</h2>
+<p>Momentum around stablecoin legislation is building rapidly in Washington. On March 26, the U.S. House introduced the STABLE Act, shortly after the Senate Banking Committee advanced its own bipartisan bill, the GENIUS Act, to the Senate floor with an 18-6 vote. While both bills aim to create a regulatory framework for dollar-denominated digital tokens, they differ on key issues such as the division of state vs. federal oversight for large issuers, the treatment of foreign issuers, reserve composition, bankruptcy protections, and yield restrictions. The Senate bill, led by Sen. Bill Hagerty (R-TN), gained notable bipartisan support, with Sen. Elizabeth Warren (D-MA) calling it a promising first step. The House version, introduced by Reps. Bryan Steil (R-WI) and French Hill (R-AR), underscores the growing bipartisan interest in stablecoin regulation. Lawmakers at the DC Blockchain Summit voiced optimism that a unified framework could be finalized by August 2025.
+
+The legislative developments come amid a surge in both private and public sector stablecoin activity. Banks like Custodia and Vantage have tokenized demand deposits on public blockchains, Fidelity is reportedly testing its own stablecoin, and Tether is expanding in South America with a growing stake in agricultural giant Adecoagro. In a political twist, WLFI-a DeFi initiative tied to Trump affiliates-is launching USD1, a stablecoin backed by short-term Treasuries and cash, available on Ethereum and BNB Chain through BitGo. On the infrastructure side, CME Group is trialing blockchain-based clearing in Google Cloud with a 2026 launch target, while ICE is collaborating with Circle and Hashnote to integrate USDC and USYC into its financial ecosystem.
+
+Meanwhile, the state of Wyoming is pushing forward with its own innovation: the Wyoming Stable Token (WYST). Slated for launch in July via a partnership with LayerZero, WYST reflects Wyoming’s multi-year commitment to digital assets, backed by the Wyoming Stable Token Act. With public and private initiatives gaining steam, stablecoins are shaping up to be a defining theme in the digital asset space through 2025.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-644c493a5fef.png"/></figure>
+<h2 class="section-head">Institutional Adoption Headlines DAS Summit 2025 in New York</h2>
+<p>The Digital Asset Summit (DAS) 2025, held March 18–20 at New York City’s Javits Center, gathered over 2,500 leaders from across finance, crypto, and policy to explore the future of digital assets. The three-day event featured more than 150 speakers, including a pre-recorded address from President Trump, who reiterated his administration’s commitment to making the U.S. the global hub for Bitcoin and digital assets. Core themes included regulatory clarity, tokenization, institutional-grade infrastructure, and the growing convergence between traditional finance and crypto. A member of the Eterna Capital team was present at the summit, offering us the opportunity to directly witness and engage with top-tier institutions shaping the next chapter of digital finance.
+
+A central narrative throughout the summit was the accelerating pace of institutional adoption, irrespective of short-term market conditions. Leaders from BlackRock, J.P. Morgan, Fidelity, and Franklin Templeton spoke to the tangible progress being made-from deepening interest in tokenized treasuries and stablecoins, to broader integration of spot crypto ETFs within institutional portfolios. Onchain finance is no longer a theoretical concept; it’s an operational reality. As regulatory frameworks sharpen and infrastructure matures, institutions are increasingly not just participants-but architects-of a rapidly evolving digital asset ecosystem.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-de8621475d86.png"/></figure>
+<h2 class="section-head">Tokenization Takes Center Stage as BUIDL, Superstate, and Centrifuge Win Spark’s $1B Grand Prix</h2>
+<p>March capped off a milestone month for real-world asset (RWA) tokenization as BUIDL, Superstate, and Centrifuge emerged as winners of Spark’s $1 billion Tokenization Grand Prix, a major initiative by the Sky subDAO to accelerate onchain adoption of U.S. Treasuries and other traditional assets. The eight-month competition, supported by advisory firm Steakhouse Financial, evaluated 39 applicants on capital efficiency, liquidity, and ecosystem alignment. Pending a governance vote that began April 3, BlackRock and Securitize’s BUIDL is poised to receive a $500 million allocation, followed by Superstate’s USTB with $300 million, and Centrifuge’s JTRSY with $200 million. As of late April, BUIDL had already crossed $375 million in AUM, reinforcing its early lead and market momentum.
+
+The announcement comes amid growing public-private alignment around stablecoins and tokenization. With stablecoin legislation advancing in both chambers of Congress and infrastructure providers like CME and ICE expanding digital asset rails, April underscored that institutional-grade onchain finance is no longer theoretical. The Grand Prix allocations are designed not just to reward traction but to catalyze further liquidity and real-world use cases. Combined with regulatory tailwinds and fresh capital inflows, tokenized treasuries are quickly becoming a cornerstone narrative in the evolving digital asset landscape.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-2e767519d369.png"/></figure>
+<h2 class="section-head">Ethereum’s Pectra Upgrade Delayed Amid Testnet Shift to ‘Hoodi’</h2>
+<p>Ethereum’s long-anticipated Pectra upgrade has been delayed to late April or early May, following developer consensus on a revised testing roadmap. Due to lingering issues on the Holesky testnet-particularly a congested validator exit queue that could take over a year to normalize-core developers launched a new long-lived testnet called Hoodi. Designed to closely mimic Ethereum mainnet conditions, Hoodi will serve as the primary testing ground for Pectra moving forward.
+
+The Pectra upgrade was successfully activated on the Hoodi testnet on March 26, 2025. This activation served as the final test before the anticipated mainnet deployment. Following this successful test, developers scheduled the mainnet activation for April 30, 2025, at slot 11,599,872, around 14:14:47 UTC, providing ample time for infrastructure providers and ecosystem participants to prepare.</p>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-ade193820f9e.png"/></figure>
+<h2 class="section-head">Eterna Portfolio Company Spotlight:</h2>
+<p>Stoffel Labs Becomes Part of the Eterna Capital Portfolio</p>
+<p>We recently announced our investment in Stoffel Labs where we co-led their pre-seed round. At Stoffel Labs, the mission is clear: to make multiparty computation accessible, efficient, and developer-friendly. By creating an intuitive developer experience and solving long-standing cryptographic challenges, Stoffel Labs is unlocking the next wave of privacy-first applications in Web3, DeFi, and AI. We’re proud to support Stoffel Labs on this journey as they redefine the landscape of secure computation.</p>
+<p class="disclaimer">Disclaimer: this newsletter was put together for informational purposes only based on our review and analysis. This should not be construed as a solicitation, offer, or recommendation to acquire or dispose of any investment or engage in any transaction.</p>

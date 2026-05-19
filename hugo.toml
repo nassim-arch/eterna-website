@@ -1,3 +1,64 @@
-baseURL = '/'
+baseURL = 'https://nassim-arch.github.io/eterna-website/'
 languageCode = 'en-us'
 title = 'Eterna Capital'
+
+# Allow raw HTML in markdown content
+[markup.goldmark.renderer]
+  unsafe = true
+
+# Permalink structure
+[permalinks]
+  [permalinks.page]
+    news = '/news/:slug/'
+    legal = '/legal/:slug/'
+
+# Main navigation menu
+[[menus.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+
+[[menus.main]]
+  name = 'Team'
+  pageRef = '/team'
+  weight = 20
+
+[[menus.main]]
+  name = 'Portfolio'
+  pageRef = '/portfolio'
+  weight = 30
+
+[[menus.main]]
+  name = 'News'
+  pageRef = '/news'
+  weight = 40
+
+[[menus.main]]
+  name = 'Blog'
+  url = 'https://eternacapital.medium.com'
+  weight = 50
+  [menus.main.params]
+    target = '_blank'
+
+# Footer menu
+[[menus.footer]]
+  name = 'Terms & Conditions'
+  pageRef = '/legal/terms-and-conditions'
+  weight = 10
+
+[[menus.footer]]
+  name = 'Privacy Policy'
+  pageRef = '/legal/privacy-policy'
+  weight = 20
+
+[[menus.footer]]
+  name = 'Disclaimer'
+  pageRef = '/legal/disclaimer'
+  weight = 30
+
+[[menus.footer]]
+  name = 'Brand Kit'
+  url = 'https://drive.google.com/drive/folders/1Ve_68D14wohAL73UsE2gkvMCteRnXhA0'
+  weight = 40
+  [menus.footer.params]
+    target = '_blank'

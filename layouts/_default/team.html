@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="page-wrap">
+  <header class="page-header reveal">
+    <h1>{{ .Title }}</h1>
+    <p class="page-intro">{{ .Params.intro }}</p>
+  </header>
+  <section class="team-section">
+    {{ range $i, $member := site.Data.team }}
+    <article class="spotlight {{ if eq (mod $i 2) 1 }}right-photo{{ else }}left-photo{{ end }} reveal" data-member="{{ $member.id }}">
+      <div class="photo-col">
+        <img src="{{ printf "images/%s" $member.photo | relURL }}" alt="{{ $member.firstName }} {{ $member.lastName }}" loading="lazy">
+      </div>
+      <div class="text-col">
+        <span class="role">{{ $member.role }}</span>
+        <h2 class="firstname">{{ $member.firstName }}</h2>
+        <div class="lastname">{{ $member.lastName }}</div>
+        <div class="bio-full" id="bio-{{ $member.id }}">
+          <p>{{ $member.bio }}</p>
+        </div>
+        <div class="text-actions">
+          <button class="expand-btn" data-target="bio-{{ $member.id }}" aria-expanded="false">
+            <span class="btn-text-default">Read full bio</span>
+            <span class="btn-text-open">Hide bio</span>
+            <span class="chevron">&#9662;</span>
+          </button>
+          {{ with $member.linkedin }}
+          <a href="{{ . }}" target="_blank" rel="noopener" class="linkedin-link" aria-label="{{ $member.firstName }} on LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.86-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.33V9h3.41v1.56h.05c.47-.9 1.64-1.86 3.38-1.86 3.61 0 4.28 2.38 4.28 5.48v6.27zM5.34 7.43a2.07 2.07 0 110-4.14 2.07 2.07 0 010 4.14zm1.78 13.02H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.44c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+          </a>
+          {{ end }}
+        </div>
+      </div>
+    </article>
+    {{ end }}
+  </section>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+{{ $js := resources.Get "js/team.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}"></script>
+{{ end }}

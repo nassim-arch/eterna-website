@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{- partial "head.html" . -}}
+</head>
+<body>
+  {{- partial "scroll-progress.html" . -}}
+  {{- partial "nav.html" . -}}
+  {{ block "main" . }}{{ end }}
+  {{- partial "footer.html" . -}}
+  {{ $mainJS := resources.Get "js/main.js" | minify | fingerprint }}
+  <script src="{{ $mainJS.RelPermalink }}"></script>
+  {{ block "scripts" . }}{{ end }}
+</body>
+</html>
