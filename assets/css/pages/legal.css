@@ -5,7 +5,7 @@
 .legal-content {
   max-width: 800px;
   margin: 0 auto;
-  padding: 120px 40px 80px;
+  padding: 100px 40px 80px;
 }
 
 .legal-content h1 {
@@ -75,7 +75,7 @@
 
 @media (max-width: 600px) {
   .legal-content {
-    padding: 100px 20px 60px;
+    padding: 80px 20px 60px;
   }
 
   .legal-content h1 {
