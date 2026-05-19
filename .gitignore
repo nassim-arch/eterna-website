@@ -5,3 +5,4 @@ resources/
 __pycache__/
 *.pyc
 migrate_news.py
+CLAUDE.md
