@@ -26,9 +26,36 @@
   --card-bg: #1c1d20;
   --card-border: rgba(255, 255, 255, 0.08);
   --card-hover-border: rgba(0, 125, 255, 0.3);
+  --card-glow: rgba(0, 125, 255, 0.12);
+  --card-hover-bg: rgba(255, 255, 255, 0.03);
+  --stat-hover-bg: rgba(255, 255, 255, 0.03);
+  --portfolio-hover-bg: rgba(255, 255, 255, 0.05);
 
   /* Borders (generic) */
   --border: rgba(255, 255, 255, 0.08);
+
+  /* Text opacity levels */
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-tertiary: rgba(255, 255, 255, 0.45);
+
+  /* Filter UI */
+  --filter-label-color: rgba(255, 255, 255, 0.4);
+  --filter-pill-border: rgba(255, 255, 255, 0.18);
+  --filter-pill-color: rgba(255, 255, 255, 0.72);
+  --filter-pill-active-bg: rgba(0, 125, 255, 0.1);
+  --empty-hint-color: rgba(255, 255, 255, 0.4);
+
+  /* Tile tags */
+  --tile-tag-border: rgba(255, 255, 255, 0.2);
+  --tile-tag-color: rgba(255, 255, 255, 0.6);
+  --tile-tag-exit-border: rgba(255, 255, 255, 0.3);
+  --tile-tag-exit-color: rgba(255, 255, 255, 0.7);
+
+  /* Team names */
+  --lastname-opacity: 0.92;
+
+  /* Pillar icons */
+  --pillar-icon-filter: none;
 
   /* Footer */
   --footer-border: rgba(255, 255, 255, 0.08);
@@ -79,10 +106,38 @@ html.light-mode {
 
   --muted: rgba(0, 0, 0, 0.55);
 
-  --card-bg: #e8e7e3;
-  --card-border: rgba(0, 0, 0, 0.06);
+  --card-bg: #ffffff;
+  --card-border: rgba(0, 0, 0, 0.08);
+  --card-hover-border: rgba(0, 125, 255, 0.3);
+  --card-glow: rgba(0, 125, 255, 0.08);
+  --card-hover-bg: rgba(0, 125, 255, 0.02);
+  --stat-hover-bg: rgba(0, 0, 0, 0.02);
+  --portfolio-hover-bg: rgba(0, 125, 255, 0.03);
 
   --border: rgba(0, 0, 0, 0.08);
+
+  /* Text opacity levels */
+  --text-secondary: rgba(0, 0, 0, 0.55);
+  --text-tertiary: rgba(0, 0, 0, 0.4);
+
+  /* Filter UI */
+  --filter-label-color: rgba(0, 0, 0, 0.4);
+  --filter-pill-border: rgba(0, 0, 0, 0.15);
+  --filter-pill-color: rgba(0, 0, 0, 0.6);
+  --filter-pill-active-bg: rgba(0, 125, 255, 0.08);
+  --empty-hint-color: rgba(0, 0, 0, 0.35);
+
+  /* Tile tags */
+  --tile-tag-border: rgba(0, 0, 0, 0.15);
+  --tile-tag-color: rgba(0, 0, 0, 0.5);
+  --tile-tag-exit-border: rgba(0, 0, 0, 0.2);
+  --tile-tag-exit-color: rgba(0, 0, 0, 0.6);
+
+  /* Team names */
+  --lastname-opacity: 0.82;
+
+  /* Pillar icons */
+  --pillar-icon-filter: invert(1);
 
   --footer-border: rgba(0, 0, 0, 0.08);
   --footer-text: #0a0b0f;

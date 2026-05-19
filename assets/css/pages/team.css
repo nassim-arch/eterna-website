@@ -97,14 +97,14 @@
   letter-spacing: -0.02em;
   margin-bottom: 4px;
   margin-left: -0.03em;
-  color: #ffffff;
+  color: var(--text);
 }
 .text-col .lastname {
   font-size: clamp(18px, 2vw, 24px);
   font-weight: 400;
   letter-spacing: -0.02em;
-  color: #ffffff;
-  opacity: 0.92;
+  color: var(--text);
+  opacity: var(--lastname-opacity);
   margin-bottom: 24px;
 }
 

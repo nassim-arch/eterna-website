@@ -15,7 +15,7 @@ main {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  color: rgba(255,255,255,0.6);
+  color: var(--text-secondary);
   text-decoration: none;
   font-size: 12px;
   letter-spacing: 0.14em;
@@ -51,12 +51,12 @@ main {
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.6);
+  color: var(--text-secondary);
 }
 
 .eyebrow .duration {
   font-size: 11px;
-  color: rgba(255,255,255,0.45);
+  color: var(--text-tertiary);
   letter-spacing: 0.06em;
 }
 
@@ -107,8 +107,8 @@ main {
 .hero-img.placeholder {
   aspect-ratio: 16 / 9;
   background:
-    radial-gradient(circle at 30% 20%, rgba(0,125,255,0.18), transparent 55%),
-    linear-gradient(135deg, #0e0e0e, #1a1a1a);
+    radial-gradient(circle at 30% 20%, var(--placeholder-bg1), transparent 55%),
+    linear-gradient(135deg, var(--placeholder-from), var(--placeholder-to));
 }
 
 /* Article Body
@@ -162,7 +162,7 @@ article .takeaway-list {
 article .takeaway-list li {
   position: relative;
   padding-left: 26px;
-  color: rgba(255,255,255,0.85);
+  color: var(--takeaway-li-color);
   font-size: 16.5px;
   line-height: 1.6;
   font-weight: 400;
@@ -260,8 +260,8 @@ article .inline-img img {
   width: 100%;
   height: 100%;
   background:
-    radial-gradient(circle at 30% 20%, rgba(0,125,255,0.12), transparent 55%),
-    linear-gradient(135deg, #0e0e0e, #1a1a1a);
+    radial-gradient(circle at 30% 20%, var(--placeholder-bg1), transparent 55%),
+    linear-gradient(135deg, var(--placeholder-from), var(--placeholder-to));
 }
 
 .recent-card .meta {
@@ -282,7 +282,7 @@ article .inline-img img {
 
 .recent-card .meta .duration {
   font-size: 10.5px;
-  color: rgba(255,255,255,0.4);
+  color: var(--text-tertiary);
 }
 
 .recent-headline {
@@ -300,7 +300,7 @@ article .inline-img img {
 
 .recent-subtitle {
   font-size: 13px;
-  color: rgba(255,255,255,0.5);
+  color: var(--muted);
   line-height: 1.5;
   font-weight: 300;
 }

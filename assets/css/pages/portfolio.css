@@ -32,13 +32,13 @@
   font-weight: 600;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.4);
+  color: var(--filter-label-color);
   margin-right: 6px;
 }
 .filter-pill {
   background: transparent;
-  border: 1px solid rgba(255,255,255,0.18);
-  color: rgba(255,255,255,0.72);
+  border: 1px solid var(--filter-pill-border);
+  color: var(--filter-pill-color);
   padding: 7px 16px;
   border-radius: 100px;
   font-family: inherit;
@@ -54,7 +54,7 @@
   color: var(--accent);
 }
 .filter-pill.active {
-  background: rgba(0,125,255,0.1);
+  background: var(--filter-pill-active-bg);
   border-color: var(--accent);
   color: var(--accent);
 }
@@ -67,7 +67,7 @@
 
 .is-hidden { display: none !important; }
 .empty-hint {
-  color: rgba(255,255,255,0.4);
+  color: var(--empty-hint-color);
   font-size: 13px;
   letter-spacing: 0.02em;
   padding: 24px 0;
@@ -112,7 +112,7 @@
   height: 100%;
   background: radial-gradient(
     200px circle at var(--mx, 50%) var(--my, 50%),
-    rgba(0,125,255,0.12) 0%,
+    var(--card-glow) 0%,
     transparent 70%
   );
   opacity: 0;
@@ -124,8 +124,8 @@
   opacity: 1;
 }
 .portfolio-tile:hover {
-  border-color: rgba(0,125,255,0.3);
-  background: rgba(255,255,255,0.05);
+  border-color: var(--card-hover-border);
+  background: var(--portfolio-hover-bg);
   transform: translateY(-2px);
 }
 
@@ -139,12 +139,12 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   border-radius: 100px;
-  border: 1px solid rgba(255,255,255,0.2);
-  color: rgba(255,255,255,0.6);
+  border: 1px solid var(--tile-tag-border);
+  color: var(--tile-tag-color);
 }
 .tile-tag.exit {
-  border-color: rgba(255,255,255,0.3);
-  color: rgba(255,255,255,0.7);
+  border-color: var(--tile-tag-exit-border);
+  color: var(--tile-tag-exit-color);
 }
 
 .page-bottom {

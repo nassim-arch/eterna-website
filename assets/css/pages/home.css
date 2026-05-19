@@ -58,7 +58,7 @@
   top: 0; left: 0; width: 100%; height: 100%;
   background: radial-gradient(
     200px circle at var(--mx, 50%) var(--my, 50%),
-    rgba(0,125,255,0.12) 0%,
+    var(--card-glow) 0%,
     transparent 70%
   );
   opacity: 0;
@@ -74,7 +74,7 @@
 
 .stat-item:hover,
 .stat-item.touch-active {
-  background: rgba(255,255,255,0.03);
+  background: var(--stat-hover-bg);
 }
 
 .stat-item:not(:last-child)::after {
@@ -200,7 +200,7 @@
   top: 0; left: 0; width: 100%; height: 100%;
   background: radial-gradient(
     250px circle at var(--mx, 50%) var(--my, 50%),
-    rgba(0,125,255,0.12) 0%,
+    var(--card-glow) 0%,
     transparent 70%
   );
   opacity: 0;
@@ -219,7 +219,7 @@
 .pillar.touch-active {
   border-color: var(--card-hover-border);
   transform: translateY(-2px);
-  background: rgba(255,255,255,0.03);
+  background: var(--card-hover-bg);
 }
 
 .pillar-icon {
@@ -235,6 +235,7 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+  filter: var(--pillar-icon-filter);
 }
 
 .pillar h3 {
@@ -319,7 +320,7 @@
   top: 0; left: 0; width: 100%; height: 100%;
   background: radial-gradient(
     200px circle at var(--mx, 50%) var(--my, 50%),
-    rgba(0,125,255,0.12) 0%,
+    var(--card-glow) 0%,
     transparent 70%
   );
   opacity: 0;
@@ -334,7 +335,7 @@
 
 .portfolio-tile:hover {
   border-color: var(--card-hover-border);
-  background: rgba(255,255,255,0.05);
+  background: var(--portfolio-hover-bg);
   transform: translateY(-2px);
 }
 
