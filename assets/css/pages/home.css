@@ -449,7 +449,7 @@
 @media (max-width: 600px) {
   .hero { padding: 0 0 32px; }
   .hero h1 { font-size: 34px; }
-  .above-fold { min-height: calc(100vh - 88px); padding-top: 0; padding-bottom: 20px; justify-content: center; gap: 40px; }
+  .above-fold { min-height: calc(100vh - 88px); padding-top: 0; padding-bottom: 10px; justify-content: center; gap: 28px; }
 
   .stats-bar {
     grid-template-columns: 1fr 1fr;
