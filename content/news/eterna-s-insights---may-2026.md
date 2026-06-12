@@ -1,6 +1,6 @@
 ---
 title: "Eterna's Insights - May 2026"
-date: 2026-06-12
+date: 2026-06-09
 category: "Insights"
 duration: "5 min"
 excerpt: "The U.S. Senate Banking Committee voted to advance the CLARITY Act with bipartisan support, marking one of the most important milestones for digital asset legislation currently making its way through Washington."
