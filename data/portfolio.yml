@@ -76,6 +76,9 @@
 - name: Satori
   url: "https://satori.network/"
   status: active
+- name: Securitize
+  url: "https://securitize.io/"
+  status: active
 - name: Shield
   url: "https://www.getshield.xyz/"
   status: active
