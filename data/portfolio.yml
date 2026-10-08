@@ -109,3 +109,6 @@
 - name: Union Labs
   url: "https://union.build/"
   status: active
+- name: Zama
+  url: "https://www.zama.org/"
+  status: active
