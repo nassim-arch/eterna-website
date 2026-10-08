@@ -1,5 +1,9 @@
 - name: Kraken
   url: "https://www.kraken.com"
+- name: Securitize
+  url: "https://securitize.io/"
+- name: Moonshot AI
+  url: "https://www.moonshot.ai/"
 - name: Bluesky
   url: "https://bsky.social/about"
 - name: Zama
@@ -10,7 +14,3 @@
   url: "https://0g.ai"
 - name: Temple
   url: "https://templedigitalgroup.com/"
-- name: Moonshot AI
-  url: "https://www.moonshot.ai/"
-- name: Securitize
-  url: "https://securitize.io/"
