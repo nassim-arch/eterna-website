@@ -4,7 +4,7 @@ date: 2026-10-09
 category: "Insights"
 duration: "5 min"
 excerpt: "The U.S. Senate failed to advance the CLARITY Act, with the procedural vote falling well short of the 60 votes required to proceed."
-heroImage: "img-october2026-1.png"
+heroImage: "img-october2026-2.jpg"
 slug: "eterna-s-insights---october-2026"
 ---
 
