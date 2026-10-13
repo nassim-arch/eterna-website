@@ -14,7 +14,7 @@ slug: "eterna-s-insights---october-2026"
 <li>SEC Opens a Path for Secondary Trading of Tokenized Equities</li>
 <li>U.S. Crypto Markets Move Toward Onchain Perpetuals</li>
 </ul>
-<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-october2026-1.png"/></figure>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-october2026-2.jpg"/></figure>
 <h2 class="section-head">CLARITY Act Stalls as Crypto Regulation Shifts Back to Agencies</h2>
 <p>The U.S. Senate failed to advance the CLARITY Act, with the procedural vote falling well short of the 60 votes required to proceed.</p>
 <p>The result marks a setback for the most significant attempt in years to establish a comprehensive federal framework for digital asset market structure.</p>
@@ -24,7 +24,7 @@ slug: "eterna-s-insights---october-2026"
 <p>In the absence of legislation, regulators are increasingly becoming the primary source of market-structure development, with recent actions from the SEC and CFTC providing new pathways for tokenized securities and decentralized financial infrastructure (more below).</p>
 <p>The longer-term uncertainty is more significant: Congress can establish rules, market boundaries, and consumer protections that agencies cannot fully replicate.</p>
 <p>For now, however, the combination of supportive regulators and continued institutional investment means that the U.S. digital asset market is likely to keep developing even without CLARITY.</p>
-<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-october2026-2.jpg"/></figure>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-october2026-3.jpeg"/></figure>
 <h2 class="section-head">SEC Opens a Path for Secondary Trading of Tokenized Equities</h2>
 <p>The SEC has created a long-awaited regulatory pathway for the secondary trading of tokenized U.S. equities.</p>
 <p>Its five-year innovation exemption allows qualifying tokenized securities venues to operate permissioned automated market makers and liquidity pools without being treated as traditional exchanges, while also providing relief for certain liquidity providers from dealer registration.</p>
@@ -34,7 +34,7 @@ slug: "eterna-s-insights---october-2026"
 <p>The exemption addresses one of the key bottlenecks holding back onchain equities: the absence of a clear framework for secondary-market liquidity.</p>
 <p>It also establishes an important distinction between genuine tokenized securities and products that merely provide economic exposure through wrappers, derivatives, or linked securities.</p>
 <p>Combined with the broader build-out of tokenization infrastructure by institutions such as DTCC, the SEC's move suggests that tokenized equities are moving from an infrastructure experiment toward a functioning component of capital markets.</p>
-<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-october2026-3.jpeg"/></figure>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-october2026-4.jpg"/></figure>
 <h2 class="section-head">U.S. Crypto Markets Move Toward Onchain Perpetuals</h2>
 <p>The failure of CLARITY is also shaping how decentralized trading venues approach the U.S. market.</p>
 <p>Payward, Kraken's parent company, plans to offer U.S. clients onchain perpetual futures through Hyperliquid's proposed HIP-3 framework, which would allow deployers to add controlled allowlists to otherwise permissionless markets.</p>
@@ -44,7 +44,7 @@ slug: "eterna-s-insights---october-2026"
 <p>The divergence between the two approaches is revealing.</p>
 <p>Crypto-native platforms are attempting to adapt decentralized infrastructure to regulatory requirements, while established financial platforms are using regulated entities to bring similar products onchain.</p>
 <p>Both approaches point toward the same broader trend: derivatives, equities, and other financial markets are increasingly moving toward 24/7 digital infrastructure, but the question of how decentralized venues can serve regulated U.S. users remains unresolved.</p>
-<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-october2026-4.jpg"/></figure>
+<figure class="inline-img"><img alt="" loading="lazy" src="/images/img-october2026-5.jpg"/></figure>
 <h2 class="section-head">Crypto Security Losses Highlight the Weaknesses Around the Key</h2>
 <p>Crypto suffered another month of significant security losses, with Bitget losing approximately $388 million from hot and warm wallets and the Liquid Network losing roughly $320 million in L-BTC.</p>
 <p>In both cases, the critical vulnerability was not the underlying cryptography itself.</p>
