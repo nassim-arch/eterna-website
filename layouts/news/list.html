@@ -21,7 +21,6 @@
   <article class="featured reveal" data-cat="{{ .Params.category | lower }}">
     <a class="featured-media" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
       {{ with .Params.heroImage }}<img src="{{ printf "images/%s" . | relURL }}" alt="{{ $.Title }}" loading="eager">{{ else }}<div class="placeholder"></div>{{ end }}
-      <span class="featured-tag">Latest issue</span>
     </a>
     <div class="featured-body">
       <div class="meta">
