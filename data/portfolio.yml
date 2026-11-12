@@ -5,7 +5,6 @@
   url: "https://algorandtechnologies.com"
   status: exit
 - name: AscendEX
-  url: "https://ascendex.com/en"
   status: active
 - name: Blockus
   url: "https://www.blockus.gg"
@@ -47,7 +46,6 @@
   url: "https://linera.io"
   status: active
 - name: Mailchain
-  url: "https://mailchain.com"
   status: active
 - name: Moto
   url: "https://www.moto-card.com/"
@@ -68,7 +66,6 @@
   url: "https://www.originprotocol.com"
   status: exit
 - name: "R&"
-  url: "https://www.distributedfinance.co"
   status: active
 - name: Rena Labs
   url: "https://renalabs.xyz/"

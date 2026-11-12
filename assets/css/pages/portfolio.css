@@ -80,6 +80,9 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
+.portfolio-grid.filter-all .portfolio-tile {
+  cursor: default;
+}
 
 .portfolio-tile {
   position: relative;
@@ -127,6 +130,18 @@
   border-color: var(--card-hover-border);
   background: var(--portfolio-hover-bg);
   transform: translateY(-2px);
+}
+
+.portfolio-tile.no-link {
+  cursor: default;
+}
+.portfolio-tile.no-link:hover {
+  border-color: var(--border);
+  background: var(--card-bg);
+  transform: none;
+}
+.portfolio-tile.no-link:hover::before {
+  opacity: 0;
 }
 
 .tile-tag {
